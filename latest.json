@@ -1,18 +1,18 @@
 {
   "format_version": 0,
   "code": 1,
-  "changes": {
+  "content": {
     "defpacks": [
-      "+minecraft_b_1_11",
-      "+minecraft_j_1_13",
-      "+minecraft_j_1_14",
-      "+minecraft_j_1_15"
+      "minecraft_b_1_11",
+      "minecraft_j_1_13",
+      "minecraft_j_1_14",
+      "minecraft_j_1_15"
     ],
     "featuremaps": [
-      "+b_1_13",
-      "+j_1_13",
-      "+j_1_14",
-      "+j_1_15"
+      "b_1_13",
+      "j_1_13",
+      "j_1_14",
+      "j_1_15"
     ]
   }
 }
