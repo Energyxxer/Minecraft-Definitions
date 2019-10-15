@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Zip Definition Packs">
+    <output-path>$PROJECT_DIR$/defpacks/zipped</output-path>
+    <root id="root">
+      <element id="archive" name="minecraft_j_1_13.zip">
+        <element id="dir-copy" path="$PROJECT_DIR$/defpacks/source/minecraft_j_1_13" />
+      </element>
+      <element id="archive" name="minecraft_j_1_14.zip">
+        <element id="dir-copy" path="$PROJECT_DIR$/defpacks/source/minecraft_j_1_14" />
+      </element>
+      <element id="archive" name="minecraft_j_1_15.zip">
+        <element id="dir-copy" path="$PROJECT_DIR$/defpacks/source/minecraft_j_1_15" />
+      </element>
+    </root>
+  </artifact>
+</component>

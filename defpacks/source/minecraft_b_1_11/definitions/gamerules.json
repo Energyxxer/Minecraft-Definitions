@@ -1,0 +1,77 @@
+{
+  "commandblockoutput": {
+    "argument": "boolean"
+  },
+  "commandblocksenabled": {
+    "argument": "boolean"
+  },
+  "dodaylightcycle": {
+    "argument": "boolean"
+  },
+  "doentitydrops": {
+    "argument": "boolean"
+  },
+  "dofiretick": {
+    "argument": "boolean"
+  },
+  "doimmediaterespawn": {
+    "argument": "boolean"
+  },
+  "doinsomnia": {
+    "argument": "boolean"
+  },
+  "domobloot": {
+    "argument": "boolean"
+  },
+  "domobspawning": {
+    "argument": "boolean"
+  },
+  "dotiledrops": {
+    "argument": "boolean"
+  },
+  "doweathercycle": {
+    "argument": "boolean"
+  },
+  "drowningdamage": {
+    "argument": "boolean"
+  },
+  "falldamage": {
+    "argument": "boolean"
+  },
+  "firedamage": {
+    "argument": "boolean"
+  },
+  "functioncommandlimit": {
+    "argument": "int"
+  },
+  "keepinventory": {
+    "argument": "boolean"
+  },
+  "maxcommandchainlength": {
+    "argument": "int"
+  },
+  "mobgriefing": {
+    "argument": "boolean"
+  },
+  "naturalregeneration": {
+    "argument": "boolean"
+  },
+  "pvp": {
+    "argument": "boolean"
+  },
+  "randomtickspeed": {
+    "argument": "int"
+  },
+  "sendcommandfeedback": {
+    "argument": "boolean"
+  },
+  "showcoordinates": {
+    "argument": "boolean"
+  },
+  "showdeathmessages": {
+    "argument": "boolean"
+  },
+  "tntexplodes": {
+    "argument": "boolean"
+  }
+}
