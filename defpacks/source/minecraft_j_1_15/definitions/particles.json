@@ -14,25 +14,13 @@
   "minecraft:bubble": {
     "argument": "none"
   },
-  "minecraft:bubble_pop": {
-    "argument": "none"
-  },
-  "minecraft:bubble_column_up": {
-    "argument": "none"
-  },
   "minecraft:cloud": {
     "argument": "none"
   },
   "minecraft:crit": {
     "argument": "none"
   },
-  "minecraft:current_down": {
-    "argument": "none"
-  },
   "minecraft:damage_indicator": {
-    "argument": "none"
-  },
-  "minecraft:dolphin": {
     "argument": "none"
   },
   "minecraft:dragon_breath": {
@@ -41,7 +29,16 @@
   "minecraft:dripping_lava": {
     "argument": "none"
   },
+  "minecraft:falling_lava": {
+    "argument": "none"
+  },
+  "minecraft:landing_lava": {
+    "argument": "none"
+  },
   "minecraft:dripping_water": {
+    "argument": "none"
+  },
+  "minecraft:falling_water": {
     "argument": "none"
   },
   "minecraft:dust": {
@@ -73,15 +70,6 @@
   },
   "minecraft:falling_dust": {
     "argument": "block"
-  },
-  "minecraft:falling_lava": {
-    "argument": "none"
-  },
-  "minecraft:falling_nectar": {
-    "argument": "none"
-  },
-  "minecraft:falling_water": {
-    "argument": "none"
   },
   "minecraft:firework": {
     "argument": "none"
@@ -119,19 +107,10 @@
   "minecraft:large_smoke": {
     "argument": "none"
   },
-  "minecraft:landing_honey": {
-    "argument": "none"
-  },
-  "minecraft:landing_lava": {
-    "argument": "none"
-  },
   "minecraft:lava": {
     "argument": "none"
   },
   "minecraft:mycelium": {
-    "argument": "none"
-  },
-  "minecraft:nautilus": {
     "argument": "none"
   },
   "minecraft:note": {
@@ -155,9 +134,6 @@
   "minecraft:spit": {
     "argument": "none"
   },
-  "minecraft:splash": {
-    "argument": "none"
-  },
   "minecraft:squid_ink": {
     "argument": "none"
   },
@@ -170,13 +146,43 @@
   "minecraft:underwater": {
     "argument": "none"
   },
+  "minecraft:splash": {
+    "argument": "none"
+  },
   "minecraft:witch": {
+    "argument": "none"
+  },
+  "minecraft:bubble_pop": {
+    "argument": "none"
+  },
+  "minecraft:current_down": {
+    "argument": "none"
+  },
+  "minecraft:bubble_column_up": {
+    "argument": "none"
+  },
+  "minecraft:nautilus": {
+    "argument": "none"
+  },
+  "minecraft:dolphin": {
     "argument": "none"
   },
   "minecraft:campfire_cosy_smoke": {
     "argument": "none"
   },
   "minecraft:campfire_signal_smoke": {
+    "argument": "none"
+  },
+  "minecraft:dripping_honey": {
+    "argument": "none"
+  },
+  "minecraft:falling_honey": {
+    "argument": "none"
+  },
+  "minecraft:landing_honey": {
+    "argument": "none"
+  },
+  "minecraft:falling_nectar": {
     "argument": "none"
   }
 }
