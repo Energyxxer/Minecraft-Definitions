@@ -25,6 +25,12 @@
   "doInsomnia": {
     "argument": "boolean"
   },
+  "doPatrolSpawning": {
+    "argument": "boolean"
+  },
+  "doTraderSpawning": {
+    "argument": "boolean"
+  },
   "doEntityDrops": {
     "argument": "boolean",
     "default": true
