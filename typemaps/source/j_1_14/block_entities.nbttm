@@ -69,8 +69,8 @@ $BLOCK_ENTITY_MINECRAFT_BREWING_STAND: {
 
 $BLOCK_ENTITY_MINECRAFT_CAMPFIRE: {
     Items: [$ITEM],
-    CookingTimes: [I;],
-    CookingTotalTimes: [I;]
+    CookingTimes: [I;] (fixed),
+    CookingTotalTimes: [I;] (fixed)
 }
 
 $BLOCK_ENTITY_MINECRAFT_CHEST: {

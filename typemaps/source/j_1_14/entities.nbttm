@@ -1,9 +1,9 @@
 $ENTITY: {
     id: String (type(entity)),
     
-    Pos: [Double],
-    Motion: [Double],
-    Rotation: [Float],
+    Pos: [Double] (fixed),
+    Motion: [Double] (fixed),
+    Rotation: [Float] (fixed),
     
     FallDistance: Float,
     Fire: Short,
@@ -42,25 +42,25 @@ $ENTITY_MOB: {
     Brain: {
         memories: {
             "minecraft:meeting_point": {
-                pos: [I;],
+                pos: [I;] (fixed),
                 dimension: String (type(dimension))
             },
             "minecraft:home": {
-                pos: [I;],
+                pos: [I;] (fixed),
                 dimension: String (type(dimension))
             },
             "minecraft:job_site": {
-                pos: [I;],
+                pos: [I;] (fixed),
                 dimension: String (type(dimension))
             }
         }
     },
     Attributes: [$ATTRIBUTE],
-    ActiveEffects: [$EFFECT],
-    HandItems: [$ITEM],
-    ArmorItems: [$ITEM],
-    HandDropChances: [Float],
-    ArmorDropChances: [Float],
+    ActiveEffects: [$EFFECT] (fixed),
+    HandItems: [$ITEM] (fixed),
+    ArmorItems: [$ITEM] (fixed),
+    HandDropChances: [Float] (fixed),
+    ArmorDropChances: [Float] (fixed),
     DeathLootTable: String (resource_location),
     DeathLootTableSeed: Long,
     CanPickUpLoot: Byte (boolean),
@@ -491,9 +491,9 @@ $ENTITY_MINECRAFT_ARROW: {
 }
 
 $ENTITY_MINECRAFT_DRAGON_FIREBALL: {
-    direction: [Double],
+    direction: [Double] (fixed),
     life: Int,
-    power: [Double]
+    power: [Double] (fixed)
 }
 
 $ENTITY_MINECRAFT_EGG: {
@@ -524,9 +524,9 @@ $ENTITY_MINECRAFT_EXPERIENCE_BOTTLE: {
 }
 
 $ENTITY_MINECRAFT_FIREBALL: {
-    direction: [Double],
+    direction: [Double] (fixed),
     life: Int,
-    power: [Double],
+    power: [Double] (fixed),
     Item: $ITEM,
     ExplosionPower: Int
 }
@@ -569,9 +569,9 @@ $ENTITY_MINECRAFT_SHULKER_BULLET: {
 }
 
 $ENTITY_MINECRAFT_SMALL_FIREBALL: {
-    direction: [Double],
+    direction: [Double] (fixed),
     life: Int,
-    power: [Double],
+    power: [Double] (fixed),
     Item: $ITEM
 }
 
@@ -617,9 +617,9 @@ $ENTITY_MINECRAFT_TRIDENT: {
 }
 
 $ENTITY_MINECRAFT_WITHER_SKULL: {
-    direction: [Double],
+    direction: [Double] (fixed),
     life: Int,
-    power: [Double]
+    power: [Double] (fixed)
 }
 
 #items, xporbs:
@@ -737,19 +737,19 @@ $ENTITY_MINECRAFT_AREA_EFFECT_CLOUD: {
 $ENTITY_MINECRAFT_ARMOR_STAND: {
     ActiveEffects: [$EFFECT],
     DisabledSlots: Int,
-    HandItems: [$ITEM],
-    ArmorItems: [$ITEM],
+    HandItems: [$ITEM] (fixed),
+    ArmorItems: [$ITEM] (fixed),
     Marker: Byte (boolean),
     Invisible: Byte (boolean),
     NoBasePlate: Byte (boolean),
     FallFlying: Byte (boolean),
     Pose: {
-        Head: [Float],
-        Body: [Float],
-        LeftArm: [Float],
-        RightArm: [Float],
-        LeftLeg: [Float],
-        RightLeg: [Float]
+        Head: [Float] (fixed),
+        Body: [Float] (fixed),
+        LeftArm: [Float] (fixed),
+        RightArm: [Float] (fixed),
+        LeftLeg: [Float] (fixed),
+        RightLeg: [Float] (fixed)
     },
     ShowArms: Byte (boolean),
     Small: Byte (boolean),
