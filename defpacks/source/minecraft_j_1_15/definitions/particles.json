@@ -184,14 +184,5 @@
   },
   "minecraft:falling_nectar": {
     "argument": "none"
-  },
-  "minecraft:ash": {
-    "argument": "none"
-  },
-  "minecraft:crimson_spore": {
-    "argument": "none"
-  },
-  "minecraft:warped_spore": {
-    "argument": "none"
   }
 }

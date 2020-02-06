@@ -259,6 +259,12 @@
     "living": true,
     "hostile": true
   },
+  "minecraft:hoglin": {
+    "spawnable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
   "minecraft:hopper_minecart": {
     "spawnable": true,
     "targetable": true,
