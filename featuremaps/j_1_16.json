@@ -48,6 +48,7 @@
     "textcomponent.selector": true,
     "textcomponent.score": true,
 
+
     "command.teammsg": true,
     "command.datapack": true,
     "command.reload": true,
