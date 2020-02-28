@@ -36,11 +36,11 @@
         }
       }
     },
-    "minecraft:zombie_pigman": {
+    "minecraft:zombified_piglin": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombie_pigman"
+          "type": "minecraft:zombified_piglin"
         }
       }
     },
@@ -219,6 +219,22 @@
           "type": "minecraft:ravager"
         }
       }
+    },
+    "minecraft:hoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:hoglin"
+        }
+      }
+    },
+    "minecraft:piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        }
+      }
     }
   },
   "requirements": [
@@ -229,7 +245,7 @@
       "minecraft:spider"
     ],
     [
-      "minecraft:zombie_pigman"
+      "minecraft:zombified_piglin"
     ],
     [
       "minecraft:enderman"
@@ -296,6 +312,12 @@
     ],
     [
       "minecraft:ravager"
+    ],
+    [
+      "minecraft:hoglin"
+    ],
+    [
+      "minecraft:piglin"
     ]
   ]
 }

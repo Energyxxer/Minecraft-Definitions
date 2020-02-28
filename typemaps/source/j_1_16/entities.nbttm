@@ -465,11 +465,19 @@ $ENTITY_MINECRAFT_ZOMBIE: $ENTITY_ZOMBIELIKE
 #zombie_horse
 $ENTITY_MINECRAFT_ZOMBIE_HORSE: $ENTITY_HORSELIKE
 
-#zombie_pigman
-$ENTITY_MINECRAFT_ZOMBIE_PIGMAN: {
+#zombified_piglin
+$ENTITY_MINECRAFT_ZOMBIFIED_PIGLIN: {
     Anger: Short,
     HurtBy: String (uuid)
 }
+
+#piglin
+$ENTITY_MINECRAFT_PIGLIN: {
+    IsImmuneToZombification: Byte (boolean)
+}
+
+#hoglin
+#empty
 
 #zombie_villager
 $ENTITY_MINECRAFT_ZOMBIE_VILLAGER: {

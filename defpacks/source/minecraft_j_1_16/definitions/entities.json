@@ -263,7 +263,8 @@
     "spawnable": true,
     "targetable": true,
     "living": true,
-    "hostile": true
+    "hostile": false,
+    "breedable": true
   },
   "minecraft:hopper_minecart": {
     "spawnable": true,
@@ -400,6 +401,12 @@
     "living": true,
     "hostile": false,
     "breedable": true
+  },
+  "minecraft:piglin": {
+    "spawnable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
   },
   "minecraft:pillager": {
     "spawnable": true,
@@ -675,7 +682,7 @@
     "tamable": true,
     "breedable": true
   },
-  "minecraft:zombie_pigman": {
+  "minecraft:zombified_piglin": {
     "spawnable": true,
     "targetable": true,
     "living": true,
