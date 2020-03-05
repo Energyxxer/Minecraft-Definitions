@@ -436,7 +436,7 @@
     "targetable": true,
     "living": false,
     "hostile": false,
-    "projectile": true
+    "projectile": false
   },
   "minecraft:silverfish": {
     "spawnable": true,

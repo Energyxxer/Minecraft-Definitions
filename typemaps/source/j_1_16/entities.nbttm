@@ -496,6 +496,7 @@ $ENTITY_PROJECTILE: {
     xTile: Int,
     yTile: Int,
     zTile: Int,
+    OwnerUUID: [I;] (fixed),
     inBlockState: $BLOCK
 }
 
@@ -510,8 +511,6 @@ $ENTITY_MINECRAFT_ARROW: {
     ShotFromCrossbow: Byte (boolean),
     PierceLevel: Byte,
     SoundEvent: String,
-    OwnerUUIDMost: Long,
-    OwnerUUIDLeast: Long,
     Color: Int,
     CustomPotionEffects: [$EFFECT],
     Potion: String (type(potion)),
@@ -526,28 +525,16 @@ $ENTITY_MINECRAFT_DRAGON_FIREBALL: {
 
 $ENTITY_MINECRAFT_EGG: {
     shake: Byte,
-    owner: {
-        L: Long,
-        M: Long
-    },
     Item: $ITEM
 }
 
 $ENTITY_MINECRAFT_ENDER_PEARL: {
     shake: Byte,
-    owner: {
-        L: Long,
-        M: Long
-    },
     Item: $ITEM
 }
 
 $ENTITY_MINECRAFT_EXPERIENCE_BOTTLE: {
     shake: Byte,
-    owner: {
-        L: Long,
-        M: Long
-    },
     Item: $ITEM
 }
 
@@ -559,19 +546,8 @@ $ENTITY_MINECRAFT_FIREBALL: {
     ExplosionPower: Int
 }
 
-$ENTITY_MINECRAFT_LLAMA_SPIT: {
-    Owner: {
-        OwnerUUIDMost: Long,
-        OwnerUUIDLeast: Long
-    }
-}
-
 $ENTITY_MINECRAFT_POTION: {
     shake: Byte,
-    owner: {
-        L: Long,
-        M: Long
-    },
     Potion: $ITEM
 }
 
@@ -623,8 +599,6 @@ $ENTITY_MINECRAFT_SPECTRAL_ARROW: {
     ShotFromCrossbow: Byte (boolean),
     PierceLevel: Byte,
     SoundEvent: String,
-    OwnerUUIDMost: Long,
-    OwnerUUIDLeast: Long,
     Duration: Int
 }
 
@@ -639,8 +613,6 @@ $ENTITY_MINECRAFT_TRIDENT: {
     ShotFromCrossbow: Byte (boolean),
     PierceLevel: Byte,
     SoundEvent: String,
-    OwnerUUIDMost: Long,
-    OwnerUUIDLeast: Long,
     Trident: $ITEM
 }
 
@@ -826,7 +798,9 @@ $ENTITY_MINECRAFT_ITEM_FRAME: {
     Facing: Byte,
     Item: $ITEM,
     ItemDropChance: Float,
-    ItemRotation: Byte
+    ItemRotation: Byte,
+    Invisible: Byte (boolean),
+    Fixed: Byte (boolean)
 }
 
 #painting
