@@ -4,7 +4,7 @@
   "categories": {
     "attribute": {
       "use_namespace": false,
-      "tag_directory": "definitions/attributes"
+      "import_from": "definitions/attributes"
     },
     "block": {
       "use_namespace": true,
