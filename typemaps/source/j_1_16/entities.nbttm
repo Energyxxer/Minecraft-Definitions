@@ -818,7 +818,7 @@ $ENTITY_MINECRAFT_PLAYER: {
     SpawnY: Int,
     SpawnZ: Int,
     SpawnForced: Byte (boolean),
-    SpawnDimension: String (type(dimension))
+    SpawnDimension: String (type(dimension)),
     SleepTimer: Short,
     foodLevel: Int,
     foodExhaustionLevel: Float,
