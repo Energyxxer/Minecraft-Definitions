@@ -2,6 +2,10 @@
   "name": "Minecraft Java Edition 1.16",
   "version": 1,
   "categories": {
+    "attributes": {
+      "use_namespace": true,
+      "tag_directory": "definitions/attributes"
+    },
     "block": {
       "use_namespace": true,
       "tag_directory": "blocks",

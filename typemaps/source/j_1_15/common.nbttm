@@ -121,7 +121,8 @@ $EFFECT: {
     Duration: Int,
     Ambient: Byte (boolean),
     ShowParticles: Byte (boolean),
-    ShowIcon: Byte (boolean)
+    ShowIcon: Byte (boolean),
+    HiddenEffect: $EFFECT
 }
 
 $SPAWNER: {

@@ -197,6 +197,9 @@
   "minecraft:soul_fire_flame": {
     "argument": "none"
   },
+  "minecraft:soul": {
+    "argument": "none"
+  },
   "minecraft:dripping_obsidian_tear": {
     "argument": "none"
   },
@@ -204,6 +207,9 @@
     "argument": "none"
   },
   "minecraft:landing_obsidian_tear": {
+    "argument": "none"
+  },
+  "minecraft:reverse_portal": {
     "argument": "none"
   }
 }

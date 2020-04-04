@@ -408,6 +408,20 @@
     "living": true,
     "hostile": false
   },
+  "minecraft:strider": {
+    "spawnable": true,
+    "targetable": true,
+    "breedable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:zoglin": {
+    "spawnable": true,
+    "targetable": true,
+    "undead": false,
+    "living": true,
+    "hostile": true
+  },
   "minecraft:pillager": {
     "spawnable": true,
     "targetable": true,
@@ -464,7 +478,7 @@
     "targetable": true,
     "living": false,
     "hostile": false,
-    "projectile": false
+    "projectile": true
   },
   "minecraft:silverfish": {
     "spawnable": true,

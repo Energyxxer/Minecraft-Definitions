@@ -68,7 +68,6 @@ $ENTITY_MOB: {
     PersistenceRequired: Byte (boolean),
     LeftHanded: Byte (boolean),
     Team: String (volatile),
-    Leashed: Byte (boolean),
     Leash: {
         UUIDMost: Long,
         UUIDLeast: Long,
@@ -576,6 +575,7 @@ $ENTITY_MINECRAFT_SHULKER_BULLET: {
         Z: Int
     },
     Steps: Int,
+    Dir: Int,
     Target: {
         L: Long,
         M: Long,
@@ -601,7 +601,7 @@ $ENTITY_MINECRAFT_SNOWBALL: {
         L: Long,
         M: Long
     },
-    Potion: $ITEM
+    Item: $ITEM
 }
 
 $ENTITY_MINECRAFT_SPECTRAL_ARROW: {

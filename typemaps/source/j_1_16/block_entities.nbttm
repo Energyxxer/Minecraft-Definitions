@@ -100,7 +100,7 @@ $BLOCK_ENTITY_MINECRAFT_COMMAND_BLOCK: {
 }
 
 $BLOCK_ENTITY_MINECRAFT_CONDUIT: {
-    target_uuid: {L: Long, M: Long}
+    Target: $UUID
 }
 
 $BLOCK_ENTITY_MINECRAFT_DISPENSER: {
@@ -145,9 +145,11 @@ $BLOCK_ENTITY_MINECRAFT_HOPPER: {
 }
 
 $BLOCK_ENTITY_MINECRAFT_JIGSAW: {
-    target_pool: String (resource_location),
-    final_state: String (resource_location),
-    attachement_type: String (resource_location)
+    joint: String (one_of("rollable","aligned"))
+    name: String (resource_location),
+    pool: String (resource_location),
+    final_state: String (type(block)),
+    target: String (resource_location)
 }
 
 $BLOCK_ENTITY_MINECRAFT_JUKEBOX: {

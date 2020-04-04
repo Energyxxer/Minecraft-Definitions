@@ -778,7 +778,8 @@
   "block.beacon.activate": {
     "sounds": [
       "block/beacon/activate"
-    ]
+    ],
+    "subtitle": "subtitles.block.beacon.activate"
   },
   "block.beacon.ambient": {
     "sounds": [
@@ -787,19 +788,22 @@
         "name": "block/beacon/ambient",
         "volume": 0.9
       }
-    ]
+    ],
+    "subtitle": "subtitles.block.beacon.ambient"
   },
   "block.beacon.deactivate": {
     "sounds": [
       "block/beacon/deactivate"
-    ]
+    ],
+    "subtitle": "subtitles.block.beacon.deactivate"
   },
   "block.beacon.power_select": {
     "sounds": [
       "block/beacon/power1",
       "block/beacon/power2",
       "block/beacon/power3"
-    ]
+    ],
+    "subtitle": "subtitles.block.beacon.power_select"
   },
   "block.bamboo.break": {
     "sounds": [
@@ -1036,7 +1040,8 @@
         "name":  "block/barrel/close",
         "volume": 1
       }
-    ]
+    ],
+    "subtitle": "subtitles.block.barrel.close"
   },
   "block.barrel.open": {
     "sounds": [
@@ -1050,7 +1055,8 @@
         "volume": 1,
         "pitch": 1
       }
-    ]
+    ],
+    "subtitle": "subtitles.block.barrel.open"
   },
   "block.beehive.enter": {
     "sounds": [
@@ -1525,7 +1531,8 @@
         "name": "block/conduit/activate",
         "volume": 0.9
       }
-    ]
+    ],
+    "subtitle": "subtitles.block.conduit.activate"
   },
   "block.conduit.ambient": {
     "sounds": [
@@ -1533,7 +1540,8 @@
         "attenuation_distance": 8,
         "name": "block/conduit/ambient"
       }
-    ]
+    ],
+    "subtitle": "subtitles.block.conduit.ambient"
   },
   "block.conduit.ambient.short": {
     "sounds": [
@@ -1580,7 +1588,8 @@
       "block/conduit/attack1",
       "block/conduit/attack2",
       "block/conduit/attack3"
-    ]
+    ],
+    "subtitle": "subtitles.block.conduit.attack.target"
   },
   "block.conduit.deactivate": {
     "sounds": [
@@ -1588,7 +1597,8 @@
         "name": "block/conduit/deactivate",
         "volume": 0.7
       }
-    ]
+    ],
+    "subtitle": "subtitles.block.conduit.deactivate"
   },
   "block.dispenser.dispense": {
     "sounds": [
@@ -1613,7 +1623,8 @@
       "block/enchantment_table/enchant1",
       "block/enchantment_table/enchant2",
       "block/enchantment_table/enchant3"
-    ]
+    ],
+    "subtitle": "subtitles.block.enchantment_table.use"
   },
   "block.end_gateway.spawn": {
     "sounds": [
@@ -1627,14 +1638,16 @@
   "block.end_portal.spawn": {
     "sounds": [
       "block/end_portal/endportal"
-    ]
+    ],
+    "subtitle": "subtitles.block.end_portal.spawn"
   },
   "block.end_portal_frame.fill": {
     "sounds": [
       "block/end_portal/eyeplace1",
       "block/end_portal/eyeplace2",
       "block/end_portal/eyeplace3"
-    ]
+    ],
+    "subtitle": "subtitles.block.end_portal_frame.fill"
   },
   "block.ender_chest.close": {
     "sounds": [
@@ -1923,6 +1936,46 @@
       "step/coral6"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.respawn_anchor.charge": {
+    "sounds": [
+      "block/respawn_anchor/charge1",
+      "block/respawn_anchor/charge2",
+      "block/respawn_anchor/charge3"
+    ],
+    "subtitle": "subtitles.block.respawn_anchor.charge"
+  },
+  "block.respawn_anchor.deplete": {
+    "sounds": [
+      "block/respawn_anchor/deplete1",
+      "block/respawn_anchor/deplete2"
+    ],
+    "subtitle": "subtitles.block.respawn_anchor.deplete"
+  },
+  "block.respawn_anchor.set_spawn": {
+    "sounds": [
+      "block/respawn_anchor/set_spawn1",
+      "block/respawn_anchor/set_spawn2",
+      "block/respawn_anchor/set_spawn3"
+    ],
+    "subtitle": "subtitles.block.respawn_anchor.set_spawn"
+  },
+  "block.respawn_anchor.ambient": {
+    "sounds": [
+      {
+        "attenuation_distance": 7,
+        "name":  "block/respawn_anchor/ambient1"
+      },
+      {
+        "attenuation_distance": 7,
+        "name": "block/respawn_anchor/ambient2"
+      },
+      {
+        "attenuation_distance": 7,
+        "name": "block/respawn_anchor/ambient3"
+      }
+    ],
+    "subtitle": "subtitles.block.respawn_anchor.ambient"
   },
   "block.gravel.break": {
     "sounds": [
@@ -2252,6 +2305,55 @@
     ],
     "subtitle": "subtitles.block.generic.place"
   },
+  "block.lodestone.break": {
+    "sounds": [
+      "dig/stone1",
+      "dig/stone2",
+      "dig/stone3",
+      "dig/stone4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.lodestone.step": {
+    "sounds": [
+      "step/stone1",
+      "step/stone2",
+      "step/stone3",
+      "step/stone4",
+      "step/stone5",
+      "step/stone6"
+    ]
+  },
+  "block.lodestone.place": {
+    "sounds": [
+      "block/lodestone/place1",
+      "block/lodestone/place2",
+      "block/lodestone/place3",
+      "block/lodestone/place4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.lodestone.hit": {
+    "sounds": [
+      "step/stone1",
+      "step/stone2",
+      "step/stone3",
+      "step/stone4",
+      "step/stone5",
+      "step/stone6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.lodestone.fall": {
+    "sounds": [
+      "step/stone1",
+      "step/stone2",
+      "step/stone3",
+      "step/stone4",
+      "step/stone5",
+      "step/stone6"
+    ]
+  },
   "block.metal.break": {
     "sounds": [
       "dig/stone1",
@@ -2448,7 +2550,8 @@
     "sounds": [
       "block/pumpkin/carve1",
       "block/pumpkin/carve2"
-    ]
+    ],
+    "subtitle": "subtitles.block.pumpkin.carve"
   },
   "block.redstone_torch.burnout": {
     "sounds": [
@@ -2503,10 +2606,8 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
-
   "block.scaffolding.break": {
     "sounds": [
-
       {
         "name": "block/scaffold/place1",
         "volume": 0.8,
@@ -2527,7 +2628,6 @@
         "volume": 0.8,
         "pitch": 1.4
       }
-
     ],
     "subtitle": "subtitles.block.generic.break"
   },
@@ -2587,7 +2687,6 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
-
   "block.shulker_box.close": {
     "sounds": [
       "block/shulker_box/close"
@@ -2656,6 +2755,26 @@
       "block/smoker/smoker5"
     ],
     "subtitle": "subtitles.block.smoker.smoke"
+  },
+  "block.smithing_table.use": {
+    "sounds": [
+      {
+        "name":  "block/smithing_table/smithing_table1",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name":  "block/smithing_table/smithing_table2",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name":  "block/smithing_table/smithing_table3",
+        "volume": 1,
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.block.smithing_table.use"
   },
   "block.snow.break": {
     "sounds": [
@@ -2977,12 +3096,10 @@
     "subtitle": "subtitles.block.generic.break"
   },
   "block.roots.fall": {
-    "sounds": [
-    ]
+    "sounds": []
   },
   "block.roots.hit": {
-    "sounds": [
-    ],
+    "sounds": [],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.roots.place": {
@@ -2997,8 +3114,7 @@
     "subtitle": "subtitles.block.generic.place"
   },
   "block.roots.step": {
-    "sounds": [
-    ],
+    "sounds": [],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.fungus.break": {
@@ -3013,12 +3129,10 @@
     "subtitle": "subtitles.block.generic.break"
   },
   "block.fungus.fall": {
-    "sounds": [
-    ]
+    "sounds": []
   },
   "block.fungus.hit": {
-    "sounds": [
-    ],
+    "sounds": [],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.fungus.place": {
@@ -3193,6 +3307,16 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "block.vine.step": {
+    "sounds": [
+      "block/vine/climb1",
+      "block/vine/climb2",
+      "block/vine/climb3",
+      "block/vine/climb4",
+      "block/vine/climb5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
   "block.weeping_vines.break": {
     "sounds": [
       "block/roots/break1",
@@ -3238,12 +3362,11 @@
   },
   "block.weeping_vines.step": {
     "sounds": [
-      "block/roots/break1",
-      "block/roots/break2",
-      "block/roots/break3",
-      "block/roots/break4",
-      "block/roots/break5",
-      "block/roots/break6"
+      "block/roots/step1",
+      "block/roots/step2",
+      "block/roots/step3",
+      "block/roots/step4",
+      "block/roots/step5"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
@@ -4126,6 +4249,76 @@
     ],
     "subtitle": "subtitles.enchant.thorns.hit"
   },
+  "particle.soul_escape": {
+    "sounds": [
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed1",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed2",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed3",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed4",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed5",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed6",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed7",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed8",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed9",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed10",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed11",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed12",
+        "volume": 0.25
+      },
+      {
+        "attenuation_distance": 12,
+        "name": "enchant/soulspeed/soulspeed13",
+        "volume": 0.25
+      }
+    ],
+    "subtitle": "subtitles.particle.soul_escape"
+  },
   "entity.armor_stand.break": {
     "sounds": [
       "entity/armorstand/break1",
@@ -4409,7 +4602,8 @@
       "entity/boat/paddle_land4",
       "entity/boat/paddle_land5",
       "entity/boat/paddle_land6"
-    ]
+    ],
+    "subtitle": "subtitles.entity.boat.paddle_land"
   },
   "entity.boat.paddle_water": {
     "sounds": [
@@ -4445,7 +4639,8 @@
         "name": "entity/boat/paddle_water8",
         "volume": 0.8
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.boat.paddle_water"
   },
   "entity.cat.ambient": {
     "sounds": [
@@ -4482,7 +4677,8 @@
         "name": "mob/cat/beg3",
         "volume": 0.7
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.cat.beg_for_food"
   },
   "entity.cat.death": {
     "sounds": [
@@ -4514,7 +4710,8 @@
         "name": "mob/cat/eat2",
         "volume": 1
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.cat.eat"
   },
   "entity.cat.hiss": {
     "sounds": [
@@ -4530,7 +4727,8 @@
         "name": "mob/cat/hiss3",
         "volume": 0.4
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.cat.hiss"
   },
   "entity.cat.hurt": {
     "sounds": [
@@ -5009,7 +5207,8 @@
         "name": "mob/drowned/water/idle4",
         "volume": 0.9
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.drowned.ambient_water"
   },
   "entity.drowned.death": {
     "sounds": [
@@ -5227,7 +5426,8 @@
         "name": "entity/endereye/dead2",
         "volume": 1.3
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.ender_eye.death"
   },
   "entity.ender_eye.launch": {
     "sounds": [
@@ -5465,7 +5665,8 @@
         "name": "entity/bobber/retrieve2",
         "pitch": 2.4
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.fishing_bobber.retrieve"
   },
   "entity.fishing_bobber.splash": {
     "sounds": [
@@ -6000,23 +6201,36 @@
     ],
     "subtitle": "subtitles.entity.hoglin.attack"
   },
+  "entity.hoglin.converted_to_zombified": {
+    "sounds": [
+      {
+        "name":  "mob/hoglin/converted1",
+        "volume": 0.8
+      },
+      {
+        "name": "mob/hoglin/converted2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.hoglin.converted_to_zombified"
+  },
   "entity.hoglin.hurt": {
     "sounds": [
       {
         "name":  "mob/hoglin/hurt1",
-        "volume": 0.9
+        "volume": 0.8
       },
       {
         "name": "mob/hoglin/hurt2",
-        "volume": 0.9
+        "volume": 0.8
       },
       {
         "name": "mob/hoglin/hurt3",
-        "volume": 0.9
+        "volume": 0.8
       },
       {
         "name": "mob/hoglin/hurt4",
-        "volume": 0.9
+        "volume": 0.8
       }
     ],
     "subtitle": "subtitles.entity.hoglin.hurt"
@@ -6046,15 +6260,15 @@
       },
       {
         "name": "mob/hoglin/retreat2",
-        "volume": 0.9
+        "volume": 0.8
       },
       {
         "name": "mob/hoglin/retreat3",
-        "volume": 0.9
+        "volume": 0.8
       },
       {
         "name": "mob/hoglin/idle11",
-        "volume": 0.9
+        "volume": 0.8
       }
     ],
     "subtitle": "subtitles.entity.hoglin.retreat"
@@ -6087,6 +6301,139 @@
       }
     ],
     "subtitle": "subtitles.entity.hoglin.step"
+  },
+  "entity.zoglin.ambient": {
+    "sounds": [
+      {
+        "name": "mob/zoglin/idle1",
+        "volume": 0.9
+      },
+      {
+        "name": "mob/zoglin/idle1",
+        "volume": 0.9,
+        "pitch": 0.8
+      },
+      {
+        "name": "mob/zoglin/idle2",
+        "volume": 0.9
+      },
+      {
+        "name": "mob/zoglin/idle3",
+        "volume": 0.9
+      },
+      {
+        "name": "mob/zoglin/idle4",
+        "volume": 0.9
+      },
+      {
+        "name": "mob/zoglin/idle5",
+        "volume": 0.9
+      },
+      {
+        "name": "mob/zoglin/idle6",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.entity.zoglin.ambient"
+  },
+  "entity.zoglin.angry": {
+    "sounds": [
+      {
+        "name": "mob/zoglin/angry1",
+        "volume": 0.8
+      },
+      {
+        "name": "mob/zoglin/angry2",
+        "volume": 0.8
+      },
+      {
+        "name": "mob/zoglin/angry3",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.zoglin.angry"
+  },
+  "entity.zoglin.attack": {
+    "sounds": [
+      {
+        "name":  "mob/zoglin/attack1",
+        "volume": 0.8
+      },
+      {
+        "name": "mob/zoglin/attack2",
+        "volume": 0.8
+      },
+      {
+        "name": "mob/zoglin/attack1",
+        "volume": 0.8,
+        "pitch": 0.8
+      },
+      {
+        "name": "mob/zoglin/attack2",
+        "volume": 0.8,
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.zoglin.attack"
+  },
+  "entity.zoglin.hurt": {
+    "sounds": [
+      {
+        "name": "mob/zoglin/hurt1",
+        "volume": 0.83
+      },
+      {
+        "name": "mob/zoglin/hurt2",
+        "volume": 0.9
+      },
+      {
+        "name": "mob/zoglin/hurt3",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.entity.zoglin.hurt"
+  },
+  "entity.zoglin.death": {
+    "sounds": [
+      {
+        "name": "mob/zoglin/death1",
+        "volume": 0.93
+      },
+      {
+        "name": "mob/zoglin/death2",
+        "volume": 0.93
+      },
+      {
+        "name": "mob/zoglin/death3",
+        "volume": 0.93
+      }
+    ],
+    "subtitle": "subtitles.entity.zoglin.death"
+  },
+  "entity.zoglin.step": {
+    "sounds": [
+      {
+        "name":  "mob/zoglin/step1",
+        "volume": 1
+      },
+      {
+        "name": "mob/zoglin/step2",
+        "volume": 1
+      },
+      {
+        "name": "mob/zoglin/step3",
+        "volume": 1
+      },
+      {
+        "name": "mob/zoglin/step4",
+        "volume": 1
+      },
+      {
+        "name": "mob/zoglin/step5",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.zoglin.step"
   },
   "entity.horse.ambient": {
     "sounds": [
@@ -6159,7 +6506,8 @@
   "entity.horse.land": {
     "sounds": [
       "mob/horse/land"
-    ]
+    ],
+    "subtitle": "subtitles.entity.horse.land"
   },
   "entity.horse.saddle": {
     "sounds": [
@@ -6275,7 +6623,8 @@
       "mob/husk/step3",
       "mob/husk/step4",
       "mob/husk/step5"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
   },
   "entity.ravager.ambient": {
     "sounds": [
@@ -7444,7 +7793,8 @@
       "mob/parrot/fly6",
       "mob/parrot/fly7",
       "mob/parrot/fly8"
-    ]
+    ],
+    "subtitle": "subtitles.entity.parrot.fly"
   },
   "entity.parrot.hurt": {
     "sounds": [
@@ -8148,7 +8498,8 @@
         "name": "entity/player/attack/crit3",
         "volume": 0.7
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.player.attack.crit"
   },
   "entity.player.attack.knockback": {
     "sounds": [
@@ -8168,7 +8519,8 @@
         "name": "entity/player/attack/knockback4",
         "volume": 0.7
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.player.attack.knockback"
   },
   "entity.player.attack.nodamage": {
     "sounds": [
@@ -8188,7 +8540,8 @@
         "name": "entity/player/attack/weak4",
         "volume": 0.7
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.player.attack.weak"
   },
   "entity.player.attack.strong": {
     "sounds": [
@@ -8216,7 +8569,8 @@
         "name": "entity/player/attack/strong6",
         "volume": 0.7
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.player.attack.strong"
   },
   "entity.player.attack.sweep": {
     "sounds": [
@@ -8248,7 +8602,8 @@
         "name": "entity/player/attack/sweep7",
         "volume": 0.7
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.player.attack.sweep"
   },
   "entity.player.attack.weak": {
     "sounds": [
@@ -8268,7 +8623,8 @@
         "name": "entity/player/attack/weak4",
         "volume": 0.7
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.player.attack.weak"
   },
   "entity.player.big_fall": {
     "sounds": [
@@ -8309,20 +8665,23 @@
       "entity/player/hurt/drown2",
       "entity/player/hurt/drown3",
       "entity/player/hurt/drown4"
-    ]
+    ],
+    "subtitle": "subtitles.entity.player.hurt_drown"
   },
   "entity.player.hurt_on_fire": {
     "sounds": [
       "entity/player/hurt/fire_hurt1",
       "entity/player/hurt/fire_hurt2",
       "entity/player/hurt/fire_hurt3"
-    ]
+    ],
+    "subtitle": "subtitles.entity.player.hurt_on_fire"
   },
   "entity.player.hurt_sweet_berry_bush": {
     "sounds": [
       "entity/player/hurt/berrybush_hurt1",
       "entity/player/hurt/berrybush_hurt2"
-    ]
+    ],
+    "subtitle": "subtitles.entity.player.hurt"
   },
   "entity.player.levelup": {
     "sounds": [
@@ -8937,7 +9296,8 @@
         "name": "mob/horse/skeleton/water/soft6",
         "volume": 0.6
       }
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
   },
   "entity.skeleton_horse.swim": {
     "sounds": [
@@ -9209,7 +9569,205 @@
       "mob/stray/step2",
       "mob/stray/step3",
       "mob/stray/step4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.strider.ambient": {
+    "sounds": [
+      {
+        "name": "mob/strider/idle1",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/idle2",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/idle3",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/idle4",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/idle5",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/idle6",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.strider.idle"
+  },
+  "entity.strider.eat": {
+    "sounds": [
+      {
+        "name": "mob/strider/eat1",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/eat2",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/eat3",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.strider.eat"
+  },
+  "entity.strider.happy": {
+    "sounds": [
+      {
+        "name": "mob/strider/happy1",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/happy2",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/happy3",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/happy4",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/happy5",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.strider.happy"
+  },
+  "entity.strider.hurt": {
+    "sounds": [
+      {
+        "name": "mob/strider/hurt1",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/hurt2",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/hurt3",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/hurt4",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.strider.hurt"
+  },
+  "entity.strider.death": {
+    "sounds": [
+      {
+        "name": "mob/strider/death1",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/death2",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/death3",
+        "volume": 1
+      },
+      {
+        "name": "mob/strider/death4",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.strider.death"
+  },
+  "entity.strider.retreat": {
+    "sounds": [
+      {
+        "name": "mob/strider/retreat1",
+        "volume": 0.8
+      },
+      {
+        "name": "mob/strider/retreat2",
+        "volume": 0.8
+      },
+      {
+        "name": "mob/strider/retreat3",
+        "volume": 0.8
+      },
+      {
+        "name": "mob/strider/retreat4",
+        "volume": 0.8
+      },
+      {
+        "name": "mob/strider/retreat5",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.entity.strider.retreat"
+  },
+  "entity.strider.saddle": {
+    "sounds": [
+      "mob/horse/leather"
     ]
+  },
+  "entity.strider.step": {
+    "sounds": [
+      {
+        "name": "mob/strider/step1",
+        "volume": 0.25
+      },
+      {
+        "name": "mob/strider/step2",
+        "volume": 0.25
+      },
+      {
+        "name": "mob/strider/step3",
+        "volume": 0.25
+      },
+      {
+        "name": "mob/strider/step4",
+        "volume": 0.25
+      },
+      {
+        "name": "mob/strider/step5",
+        "volume": 0.25
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.strider.step_lava": {
+    "sounds": [
+      {
+        "name": "mob/strider/step_lava1",
+        "volume": 0.2
+      },
+      {
+        "name": "mob/strider/step_lava2",
+        "volume": 0.2
+      },
+      {
+        "name": "mob/strider/step_lava3",
+        "volume": 0.2
+      },
+      {
+        "name": "mob/strider/step_lava4",
+        "volume": 0.2
+      },
+      {
+        "name": "mob/strider/step_lava5",
+        "volume": 0.2
+      },
+      {
+        "name": "mob/strider/step_lava6",
+        "volume": 0.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
   },
   "entity.tnt.primed": {
     "sounds": [
@@ -9238,7 +9796,8 @@
         "name": "entity/fish/hurt4",
         "pitch": 0.8
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.tropical_fish.death"
   },
   "entity.tropical_fish.flop": {
     "sounds": [
@@ -9258,7 +9817,8 @@
         "name": "entity/fish/flop4",
         "volume": 0.3
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.tropical_fish.flop"
   },
   "entity.tropical_fish.hurt": {
     "sounds": [
@@ -9266,7 +9826,8 @@
       "entity/fish/hurt2",
       "entity/fish/hurt3",
       "entity/fish/hurt4"
-    ]
+    ],
+    "subtitle": "subtitles.entity.tropical_fish.hurt"
   },
   "entity.turtle.ambient_land": {
     "sounds": [
@@ -9526,14 +10087,16 @@
         "name":  "block/smoker/smoker5",
         "volume": 1
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.villager.work_butcher"
   },
   "entity.villager.work_cartographer": {
     "sounds": [
       "ui/cartography_table/drawmap1",
       "ui/cartography_table/drawmap2",
       "ui/cartography_table/drawmap3"
-    ]
+    ],
+    "subtitle": "subtitles.entity.villager.work_cartographer"
   },
   "entity.villager.work_cleric": {
     "sounds": [
@@ -9560,7 +10123,8 @@
         "name": "block/composter/fill_success4",
         "volume": 1
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.villager.work_farmer"
   },
   "entity.villager.work_fisherman": {
     "sounds": [
@@ -9574,7 +10138,8 @@
         "volume": 1,
         "pitch": 1
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.villager.work_fisherman"
   },
   "entity.villager.work_fletcher": {
     "sounds": [
@@ -9588,7 +10153,8 @@
         "volume": 1,
         "pitch": 1
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.villager.work_fletcher"
   },
   "entity.villager.work_leatherworker": {
     "sounds": [
@@ -9604,7 +10170,8 @@
         "name": "block/cauldron/dye3",
         "volume": 0.9
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.villager.work_leatherworker"
   },
   "entity.villager.work_librarian": {
     "sounds": [
@@ -9621,7 +10188,7 @@
         "volume": 2
       }
     ],
-    "subtitle": "subtitles.item.book.page_turn"
+    "subtitle": "subtitles.entity.villager.work_librarian"
   },
   "entity.villager.work_mason": {
     "sounds": [
@@ -9643,7 +10210,8 @@
         "volume": 1,
         "pitch": 0.92
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.villager.work_mason"
   },
   "entity.villager.work_shepherd": {
     "sounds": [
@@ -9655,7 +10223,8 @@
         "name": "ui/loom/take_result2",
         "volume": 0.5
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.villager.work_shepherd"
   },
   "entity.villager.work_toolsmith": {
     "sounds": [
@@ -9674,7 +10243,8 @@
         "volume": 1,
         "pitch": 1
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.villager.work_toolsmith"
   },
   "entity.villager.work_weaponsmith": {
     "sounds": [
@@ -9865,7 +10435,8 @@
         "name":  "mob/wandering_trader/drink_milk5",
         "volume": 1
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.wandering_trader.drink_milk"
   },
   "entity.wandering_trader.drink_potion": {
     "sounds": [
@@ -9877,7 +10448,8 @@
         "name":  "mob/wandering_trader/drink_potion",
         "volume": 0.7
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.wandering_trader.drink_potion"
   },
   "entity.wandering_trader.disappeared": {
     "sounds": [
@@ -9889,7 +10461,8 @@
         "name":  "mob/wandering_trader/disappeared2",
         "volume": 0.8
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.wandering_trader.disappeared"
   },
   "entity.wandering_trader.reappeared": {
     "sounds": [
@@ -9901,7 +10474,8 @@
         "name":  "mob/wandering_trader/reappeared2",
         "volume": 0.8
       }
-    ]
+    ],
+    "subtitle": "subtitles.entity.wandering_trader.reappeared"
   },
   "entity.witch.ambient": {
     "sounds": [
@@ -10030,7 +10604,8 @@
       "mob/wither_skeleton/step2",
       "mob/wither_skeleton/step3",
       "mob/wither_skeleton/step4"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
   },
   "entity.wolf.ambient": {
     "sounds": [
@@ -10147,7 +10722,8 @@
       "mob/turtle/egg/jump_egg2",
       "mob/turtle/egg/jump_egg3",
       "mob/turtle/egg/jump_egg4"
-    ]
+    ],
+    "subtitle": "subtitles.entity.zombie.destroy_egg"
   },
   "entity.zombie.hurt": {
     "sounds": [
@@ -10489,7 +11065,8 @@
     "sounds": [
       "item/bottle/empty1",
       "item/bottle/empty2"
-    ]
+    ],
+    "subtitle": "subtitles.item.bottle.empty"
   },
   "item.bottle.fill": {
     "sounds": [
@@ -10524,7 +11101,8 @@
       "item/bucket/empty_fish1",
       "item/bucket/empty_fish2",
       "item/bucket/empty_fish3"
-    ]
+    ],
+    "subtitle": "subtitles.item.bucket.empty"
   },
   "item.bucket.empty_lava": {
     "sounds": [
@@ -10547,7 +11125,8 @@
       "item/bucket/fill_fish1",
       "item/bucket/fill_fish2",
       "item/bucket/fill_fish3"
-    ]
+    ],
+    "subtitle": "subtitles.item.bucket.fill_fish"
   },
   "item.bucket.fill_lava": {
     "sounds": [
@@ -10844,6 +11423,27 @@
       "item/hoe/till4"
     ],
     "subtitle": "subtitles.item.hoe.till"
+  },
+  "item.lodestone_compass.lock": {
+    "sounds": [
+      {
+        "name": "block/lodestone/lock1",
+        "pitch": 0.85
+      },
+      {
+        "name": "block/lodestone/lock2",
+        "pitch": 0.85
+      },
+      {
+        "name": "block/lodestone/lock1",
+        "pitch": 0.95
+      },
+      {
+        "name": "block/lodestone/lock2",
+        "pitch": 0.95
+      }
+    ],
+    "subtitle": "subtitles.item.lodestone_compass.lock"
   },
   "item.nether_wart.plant": {
     "sounds": [

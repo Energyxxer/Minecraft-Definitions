@@ -14,8 +14,7 @@ $ENTITY: {
     Invulnerable: Byte (boolean),
     PortalCooldown: Int,
 
-    UUIDMost: Long,
-    UUIDLeast: Long,
+    UUID: $UUID,
 
     CustomName: String (text_component),
     CustomNameVisible: Byte (boolean),
@@ -68,10 +67,8 @@ $ENTITY_MOB: {
     PersistenceRequired: Byte (boolean),
     LeftHanded: Byte (boolean),
     Team: String (volatile),
-    Leashed: Byte (boolean),
     Leash: {
-        UUIDMost: Long,
-        UUIDLeast: Long,
+        UUID: $UUID,
         X: Int,
         Y: Int,
         Z: Int
@@ -93,7 +90,7 @@ $ENTITY_MINECRAFT_BEE: {
     CannotEnterHiveTicks: Int,
     TicksSincePollination: Int,
     Anger: Int,
-    HurtBy: String (uuid),
+    HurtBy: $UUID,
     HasNectar: Byte (boolean),
     CropsGrownSincePollination: Int,
     HivePos: {
@@ -167,7 +164,7 @@ $ENTITY_HORSELIKE: {
     EatingHaystack: Byte (boolean),
     Tame: Byte (boolean),
     Temper: Int,
-    OwnerUUID: String (uuid),
+    Owner: $UUID,
     ArmorItem: $ITEM,
     SaddleItem: $ITEM,
     Variant: Int,
@@ -227,7 +224,7 @@ $ENTITY_MINECRAFT_EVOKER: $ENTITY_ILLAGER
 
 #fox
 $ENTITY_MINECRAFT_FOX: {
-    TrustedUUIDs: [{L: Long, M: Long}],
+    Trusted: [$UUID],
     Sleeping: Byte (boolean),
     Type: String (one_of("red", "snow")),
     Sitting: Byte (boolean),
@@ -393,6 +390,11 @@ $ENTITY_MINECRAFT_SNOW_GOLEM: {
 #stray
 #empty
 
+#strider
+$ENTITY_MINECRAFT_STRIDER: {
+    Saddle: Byte (boolean)
+}
+
 #turtle
 $ENTITY_MINECRAFT_TURTLE: {
     HasEgg: Byte (boolean),
@@ -468,22 +470,28 @@ $ENTITY_MINECRAFT_ZOMBIE_HORSE: $ENTITY_HORSELIKE
 #zombified_piglin
 $ENTITY_MINECRAFT_ZOMBIFIED_PIGLIN: {
     Anger: Short,
-    HurtBy: String (uuid)
+    HurtBy: $UUID
 }
 
 #piglin
 $ENTITY_MINECRAFT_PIGLIN: {
-    IsImmuneToZombification: Byte (boolean)
+    IsImmuneToZombification: Byte (boolean),
+    TimeInOverworld: Int
 }
 
 #hoglin
+$ENTITY_MINECRAFT_HOGLIN: {
+    IsImmuneToZombification: Byte (boolean),
+    TimeInOverworld: Int
+}
+
+#zoglin
 #empty
 
 #zombie_villager
 $ENTITY_MINECRAFT_ZOMBIE_VILLAGER: {
     ConversionTime: Int,
-    ConversionPlayerLeast: Long,
-    ConversionPlayerMost: Long,
+    ConversionPlayer: $UUID,
     VillagerData: $VILLAGER_DATA,
     Gossips: [$VILLAGER_GOSSIP],
     Offers: $VILLAGER_OFFERS
@@ -493,15 +501,13 @@ $ENTITY_MINECRAFT_ZOMBIE_VILLAGER: $ENTITY_ZOMBIELIKE
 #projectiles
 
 $ENTITY_PROJECTILE: {
-    xTile: Int,
-    yTile: Int,
-    zTile: Int,
-    OwnerUUID: [I;] (fixed),
-    inBlockState: $BLOCK
+    Owner: $UUID
+    LeftOwner: Byte (boolean)
 }
 
 $ENTITY_MINECRAFT_ARROW: {
     shake: Byte,
+    inBlockState: $BLOCK,
     pickup: Byte,
     player: Byte (boolean),
     life: Short,
@@ -524,17 +530,14 @@ $ENTITY_MINECRAFT_DRAGON_FIREBALL: {
 }
 
 $ENTITY_MINECRAFT_EGG: {
-    shake: Byte,
     Item: $ITEM
 }
 
 $ENTITY_MINECRAFT_ENDER_PEARL: {
-    shake: Byte,
     Item: $ITEM
 }
 
 $ENTITY_MINECRAFT_EXPERIENCE_BOTTLE: {
-    shake: Byte,
     Item: $ITEM
 }
 
@@ -547,26 +550,14 @@ $ENTITY_MINECRAFT_FIREBALL: {
 }
 
 $ENTITY_MINECRAFT_POTION: {
-    shake: Byte,
-    Potion: $ITEM
+    Item: $ITEM
 }
 
 $ENTITY_MINECRAFT_SHULKER_BULLET: {
-    Owner: {
-        L: Long,
-        M: Long,
-        X: Int,
-        Y: Int,
-        Z: Int
-    },
+    Owner: $UUID,
     Steps: Int,
-    Target: {
-        L: Long,
-        M: Long,
-        X: Int,
-        Y: Int,
-        Z: Int
-    },
+    Target: $UUID,
+    Dir: Int,
     TXD: Double,
     TYD: Double,
     TZD: Double
@@ -580,16 +571,12 @@ $ENTITY_MINECRAFT_SMALL_FIREBALL: {
 }
 
 $ENTITY_MINECRAFT_SNOWBALL: {
-    shake: Byte,
-    owner: {
-        L: Long,
-        M: Long
-    },
-    Potion: $ITEM
+    Item: $ITEM
 }
 
 $ENTITY_MINECRAFT_SPECTRAL_ARROW: {
     shake: Byte,
+    inBlockState: $BLOCK,
     pickup: Byte,
     player: Byte (boolean),
     life: Short,
@@ -604,6 +591,7 @@ $ENTITY_MINECRAFT_SPECTRAL_ARROW: {
 
 $ENTITY_MINECRAFT_TRIDENT: {
     shake: Byte,
+    inBlockState: $BLOCK,
     pickup: Byte,
     player: Byte (boolean),
     life: Short,
@@ -613,7 +601,8 @@ $ENTITY_MINECRAFT_TRIDENT: {
     ShotFromCrossbow: Byte (boolean),
     PierceLevel: Byte,
     SoundEvent: String,
-    Trident: $ITEM
+    Trident: $ITEM,
+    DealtDamage: Byte
 }
 
 $ENTITY_MINECRAFT_WITHER_SKULL: {
@@ -633,14 +622,8 @@ $ENTITY_MINECRAFT_ITEM: {
     Age: Short,
     Health: Byte,
     PickupDelay: Short,
-    Owner: {
-        L: Long,
-        M: Long
-    },
-    Thrower: {
-        L: Long,
-        M: Long
-    },
+    Owner: $UUID,
+    Thrower: $UUID,
     Item: $ITEM
 }
 
@@ -723,8 +706,7 @@ $ENTITY_MINECRAFT_AREA_EFFECT_CLOUD: {
     ReapplicationDelay: Int,
     WaitTime: Int,
     DurationOnUse: Int,
-    OwnerUUIDLeast: Long,
-    OwnerUUIDMost: Long,
+    Owner: $UUID,
     Radius: Float,
     RadiusOnUse: Float,
     RadiusPerTick: Float,
@@ -771,10 +753,7 @@ $ENTITY_MINECRAFT_END_CRYSTAL: {
 #evoker_fangs
 $ENTITY_MINECRAFT_EVOKER_FANGS: {
     Warmup: Int,
-    Owner: {
-        OwnerUUIDLeast: Long,
-        OwnerUUIDMost: Long
-    }
+    Owner: $UUID
 }
 
 #eye_of_ender
@@ -820,12 +799,11 @@ $ENTITY_BREEDABLE: {
     InLove: Int,
     Age: Int,
     ForcedAge: Int,
-    LoveCauseLeast: Long,
-    LoveCauseMost: Long
+    LoveCause: $UUID
 }
 
 $ENTITY_TAMABLE: {
-    OwnerUUID: String (uuid),
+    Owner: $UUID,
     Sitting: Byte (boolean)
 }
 
@@ -840,6 +818,7 @@ $ENTITY_MINECRAFT_PLAYER: {
     SpawnY: Int,
     SpawnZ: Int,
     SpawnForced: Byte (boolean),
+    SpawnDimension: String (type(dimension))
     SleepTimer: Short,
     foodLevel: Int,
     foodExhaustionLevel: Float,
@@ -866,8 +845,7 @@ $ENTITY_MINECRAFT_PLAYER: {
         z: Double
     },
     RootVehicle: {
-        AttachLeast: Long,
-        AttachMost: Long,
+        Attach: $UUID,
         Entity: $ENTITY (protocol)
     },
     ShoulderEntityLeft: $ENTITY (protocol),
@@ -878,7 +856,11 @@ $ENTITY_MINECRAFT_PLAYER: {
         toBeDisplayed: [String (resource_location)],
         isFilteringCraftable: Byte (boolean),
         isGuiOpen: Byte (boolean),
+        isFurnaceGuiOpen: Byte (boolean),
         isFurnaceFilteringCraftable: Byte (boolean),
-        isFurnaceGuiOpen: Byte (boolean)
+        isBlastFurnaceGuiOpen: Byte (boolean),
+        isBlastFurnaceFilteringCraftable: Byte (boolean),
+        isSmokerGuiOpen: Byte (boolean),
+        isSmokerFilteringCraftable: Byte (boolean)
     }
 }

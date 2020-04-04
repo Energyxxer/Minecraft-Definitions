@@ -1,3 +1,5 @@
+$UUID: [I;] (fixed)
+
 $BLOCK: {
     Name: String (type(block)),
     Properties: {
@@ -99,7 +101,14 @@ $ITEM_TAG: {
         *: String
     },
     ChargedProjectiles: [$ITEM],
-    Charged: Byte (boolean)
+    Charged: Byte (boolean),
+    LodestoneDimension: String (type(dimension)),
+    LodestoneTracked: Byte (boolean),
+    LodestonePos: {
+        X: Int,
+        Y: Int,
+        Z: Int
+    }
 }
 
 $EXPLOSION: {
@@ -121,7 +130,8 @@ $EFFECT: {
     Duration: Int,
     Ambient: Byte (boolean),
     ShowParticles: Byte (boolean),
-    ShowIcon: Byte (boolean)
+    ShowIcon: Byte (boolean),
+    HiddenEffect: $EFFECT
 }
 
 $SPAWNER: {
@@ -142,19 +152,18 @@ $SPAWNER: {
 }
 
 $ATTRIBUTE: {
-    Name: String,
+    Name: String (type(attribute)),
     Base: Double,
     Modifiers: [$ATTRIBUTE_MODIFIER]
 }
 
 $ATTRIBUTE_MODIFIER: {
-    AttributeName: String,
+    AttributeName: String (type(attribute)),
     Name: String,
     Slot: String,
     Operation: Int,
     Amount: Double,
-    UUIDMost: Long,
-    UUIDLeast: Long
+    UUID: $UUID
 }
 
 $VILLAGER_DATA: {
@@ -166,8 +175,7 @@ $VILLAGER_DATA: {
 $VILLAGER_GOSSIP: {
     Type: String (one_of("major_negative", "minor_negative", "major_positive", "minor_positive", "trading")),
     Value: Int,
-    TargetMost: Long,
-    TargetLeast: Long
+    Target: $UUID
 }
 
 $VILLAGER_OFFERS: {
