@@ -501,7 +501,7 @@ $ENTITY_MINECRAFT_ZOMBIE_VILLAGER: $ENTITY_ZOMBIELIKE
 #projectiles
 
 $ENTITY_PROJECTILE: {
-    Owner: $UUID
+    Owner: $UUID,
     LeftOwner: Byte (boolean)
 }
 

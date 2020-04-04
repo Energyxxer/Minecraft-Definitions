@@ -145,7 +145,7 @@ $BLOCK_ENTITY_MINECRAFT_HOPPER: {
 }
 
 $BLOCK_ENTITY_MINECRAFT_JIGSAW: {
-    joint: String (one_of("rollable","aligned"))
+    joint: String (one_of("rollable","aligned")),
     name: String (resource_location),
     pool: String (resource_location),
     final_state: String (type(block)),
