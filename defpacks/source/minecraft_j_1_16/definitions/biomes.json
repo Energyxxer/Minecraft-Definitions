@@ -232,5 +232,8 @@
   },
   "minecraft:warped_forest": {
     "protocol_id": 172
+  },
+  "minecraft:basalt_deltas": {
+    "protocol_id": 173
   }
 }

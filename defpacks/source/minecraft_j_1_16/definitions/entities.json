@@ -418,7 +418,7 @@
   "minecraft:zoglin": {
     "spawnable": true,
     "targetable": true,
-    "undead": false,
+    "undead": true,
     "living": true,
     "hostile": true
   },

@@ -149,6 +149,9 @@
   "minecraft:splash": {
     "argument": "none"
   },
+  "minecraft:white_ash": {
+    "argument": "none"
+  },
   "minecraft:witch": {
     "argument": "none"
   },
