@@ -30,7 +30,7 @@ $SKULL_TEXTURE: {
 }
 
 $SKULL_OWNER: {
-    Id: String,
+    Id: $UUID,
     Name: String,
     Properties: {
         textures: [
