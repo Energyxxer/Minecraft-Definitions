@@ -3,7 +3,7 @@
   "version": 1,
   "categories": {
     "attribute": {
-      "use_namespace": false,
+      "use_namespace": true,
       "import_from": "definitions/attributes"
     },
     "block": {

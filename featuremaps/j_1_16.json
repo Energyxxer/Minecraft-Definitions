@@ -38,6 +38,8 @@
     "command.effect.explicit": true,
     "command.weather_query": false,
     "command.locatebiome": true,
+    "command.attribute": true,
+    "command.spreadplayers.under": true,
     "add.entity": false,
     "add.particle": false,
     "textcomponent.text": true,
