@@ -10,7 +10,7 @@ $ENTITY: {
     Air: Short,
     OnGround: Byte (boolean),
     NoGravity: Byte (boolean),
-    Dimension: Int,
+    Dimension: String (type(dimension)),
     Invulnerable: Byte (boolean),
     PortalCooldown: Int,
 
@@ -89,7 +89,7 @@ $ENTITY_MINECRAFT_BEE: {
     HasStung: Byte (boolean),
     CannotEnterHiveTicks: Int,
     TicksSincePollination: Int,
-    Anger: Int,
+    AngerTime: Int,
     HurtBy: $UUID,
     HasNectar: Byte (boolean),
     CropsGrownSincePollination: Int,
@@ -194,7 +194,8 @@ $ENTITY_MINECRAFT_ENDER_DRAGON: {
 
 #enderman
 $ENTITY_MINECRAFT_ENDERMAN: {
-    carriedBlockState: $BLOCK
+    carriedBlockState: $BLOCK,
+    AngerTime: Int
 }
 
 #endermite
@@ -264,7 +265,8 @@ $ENTITY_MINECRAFT_ILLUSIONER: $ENTITY_ILLAGER
 
 #iron_golem
 $ENTITY_MINECRAFT_IRON_GOLEM: {
-    PlayerCreated: Byte (boolean)
+    PlayerCreated: Byte (boolean),
+    AngerTime: Int
 }
 
 #llama
@@ -336,7 +338,9 @@ $ENTITY_MINECRAFT_PILLAGER: {
 $ENTITY_MINECRAFT_PILLAGER: $ENTITY_ILLAGER
 
 #polar_bear
-#empty
+$ENTITY_MINECRAFT_POLAR_BEAR: {
+    AngerTime: Int
+}
 
 #rabbit
 $ENTITY_MINECRAFT_RABBIT: {
@@ -457,7 +461,7 @@ $ENTITY_MINECRAFT_WITHER: {
 
 #wolf
 $ENTITY_MINECRAFT_WOLF: {
-    Angry: Byte (boolean),
+    AngerTime: Int,
     CollarColor: Byte
 }
 
@@ -469,14 +473,15 @@ $ENTITY_MINECRAFT_ZOMBIE_HORSE: $ENTITY_HORSELIKE
 
 #zombified_piglin
 $ENTITY_MINECRAFT_ZOMBIFIED_PIGLIN: {
-    Anger: Short,
+    AngerTime: Int,
     HurtBy: $UUID
 }
 
 #piglin
 $ENTITY_MINECRAFT_PIGLIN: {
     IsImmuneToZombification: Byte (boolean),
-    TimeInOverworld: Int
+    TimeInOverworld: Int,
+    Inventory: [$ITEM]
 }
 
 #hoglin
@@ -833,7 +838,7 @@ $ENTITY_MINECRAFT_PLAYER: {
     abilities: {
         walkSpeed: Float (boolean),
         flySpeed: Float (boolean),
-        mayFly: Byte (boolean),
+        mayfly: Byte (boolean),
         flying: Byte (boolean),
         invulnerable: Byte (boolean),
         mayBuild: Byte (boolean),
@@ -858,8 +863,8 @@ $ENTITY_MINECRAFT_PLAYER: {
         isGuiOpen: Byte (boolean),
         isFurnaceGuiOpen: Byte (boolean),
         isFurnaceFilteringCraftable: Byte (boolean),
-        isBlastFurnaceGuiOpen: Byte (boolean),
-        isBlastFurnaceFilteringCraftable: Byte (boolean),
+        isBlastingFurnaceGuiOpen: Byte (boolean),
+        isBlastingFurnaceFilteringCraftable: Byte (boolean),
         isSmokerGuiOpen: Byte (boolean),
         isSmokerFilteringCraftable: Byte (boolean)
     }

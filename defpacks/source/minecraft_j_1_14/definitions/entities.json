@@ -397,6 +397,7 @@
   "minecraft:polar_bear": {
     "spawnable": true,
     "targetable": true,
+    "breedable": true,
     "living": true,
     "hostile": false
   },

@@ -20,16 +20,20 @@
     "default": true
   },
   "doImmediateRespawn": {
-    "argument": "boolean"
+    "argument": "boolean",
+    "default": false
   },
   "doInsomnia": {
-    "argument": "boolean"
+    "argument": "boolean",
+    "default": true
   },
   "doPatrolSpawning": {
-    "argument": "boolean"
+    "argument": "boolean",
+    "default": true
   },
   "doTraderSpawning": {
-    "argument": "boolean"
+    "argument": "boolean",
+    "default": true
   },
   "doEntityDrops": {
     "argument": "boolean",
@@ -60,13 +64,16 @@
     "default": true
   },
   "drowningDamage": {
-    "argument": "boolean"
+    "argument": "boolean",
+    "default": true
   },
   "fallDamage": {
-    "argument": "boolean"
+    "argument": "boolean",
+    "default": true
   },
   "fireDamage": {
-    "argument": "boolean"
+    "argument": "boolean",
+    "default": true
   },
   "keepInventory": {
     "argument": "boolean",

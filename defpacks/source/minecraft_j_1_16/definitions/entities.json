@@ -1,7 +1,7 @@
 {
   "minecraft:lightning_bolt": {
     "spawnable": true,
-    "targetable": false,
+    "targetable": true,
     "living": false,
     "hostile": false
   },
@@ -431,6 +431,7 @@
   "minecraft:polar_bear": {
     "spawnable": true,
     "targetable": true,
+    "breedable": true,
     "living": true,
     "hostile": false
   },

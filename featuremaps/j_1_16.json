@@ -49,6 +49,9 @@
     "textcomponent.list": true,
     "textcomponent.selector": true,
     "textcomponent.score": true,
+    "textcomponent.font": true,
+    "textcomponent.hex_color": true,
+    "textcomponent.hover_event.content": true,
 
 
     "command.teammsg": true,

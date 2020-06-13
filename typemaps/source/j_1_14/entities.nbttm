@@ -852,7 +852,7 @@ $ENTITY_MINECRAFT_PLAYER: {
     abilities: {
         walkSpeed: Float (boolean),
         flySpeed: Float (boolean),
-        mayFly: Byte (boolean),
+        mayfly: Byte (boolean),
         flying: Byte (boolean),
         invulnerable: Byte (boolean),
         mayBuild: Byte (boolean),
