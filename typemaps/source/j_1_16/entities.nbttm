@@ -90,7 +90,7 @@ $ENTITY_MINECRAFT_BEE: {
     CannotEnterHiveTicks: Int,
     TicksSincePollination: Int,
     AngerTime: Int,
-    HurtBy: $UUID,
+    AngryAt: $UUID,
     HasNectar: Byte (boolean),
     CropsGrownSincePollination: Int,
     HivePos: {
@@ -266,7 +266,8 @@ $ENTITY_MINECRAFT_ILLUSIONER: $ENTITY_ILLAGER
 #iron_golem
 $ENTITY_MINECRAFT_IRON_GOLEM: {
     PlayerCreated: Byte (boolean),
-    AngerTime: Int
+    AngerTime: Int,
+    AngryAt: $UUID
 }
 
 #llama
@@ -339,7 +340,8 @@ $ENTITY_MINECRAFT_PILLAGER: $ENTITY_ILLAGER
 
 #polar_bear
 $ENTITY_MINECRAFT_POLAR_BEAR: {
-    AngerTime: Int
+    AngerTime: Int,
+    AngryAt: $UUID
 }
 
 #rabbit
@@ -462,6 +464,7 @@ $ENTITY_MINECRAFT_WITHER: {
 #wolf
 $ENTITY_MINECRAFT_WOLF: {
     AngerTime: Int,
+    AngryAt: $UUID,
     CollarColor: Byte
 }
 
@@ -474,7 +477,7 @@ $ENTITY_MINECRAFT_ZOMBIE_HORSE: $ENTITY_HORSELIKE
 #zombified_piglin
 $ENTITY_MINECRAFT_ZOMBIFIED_PIGLIN: {
     AngerTime: Int,
-    HurtBy: $UUID
+    AngryAt: $UUID
 }
 
 #piglin
@@ -816,6 +819,7 @@ $ENTITY_TAMABLE: {
 $ENTITY_MINECRAFT_PLAYER: {
     DataVersion: Int,
     playerGameType: Int,
+    previousPlayerGameType: Int,
     Score: Int,
     SelectedItemSlot: Int,
     SelectedItem: $ITEM,
