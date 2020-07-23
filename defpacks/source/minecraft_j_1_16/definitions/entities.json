@@ -408,6 +408,12 @@
     "living": true,
     "hostile": false
   },
+  "minecraft:piglin_brute": {
+    "spawnable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
   "minecraft:strider": {
     "spawnable": true,
     "targetable": true,

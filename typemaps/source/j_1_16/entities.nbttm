@@ -487,6 +487,9 @@ $ENTITY_MINECRAFT_PIGLIN: {
     Inventory: [$ITEM]
 }
 
+#piglin
+$ENTITY_MINECRAFT_PIGLIN_BRUTE: $ENTITY_MINECRAFT_PIGLIN
+
 #hoglin
 $ENTITY_MINECRAFT_HOGLIN: {
     IsImmuneToZombification: Byte (boolean),
@@ -826,6 +829,7 @@ $ENTITY_MINECRAFT_PLAYER: {
     SpawnX: Int,
     SpawnY: Int,
     SpawnZ: Int,
+    SpawnAngle: Float,
     SpawnForced: Byte (boolean),
     SpawnDimension: String (type(dimension)),
     SleepTimer: Short,
