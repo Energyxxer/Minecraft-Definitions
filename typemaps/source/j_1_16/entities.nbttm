@@ -475,6 +475,7 @@ $ENTITY_MINECRAFT_ZOMBIE: $ENTITY_ZOMBIELIKE
 $ENTITY_MINECRAFT_ZOMBIE_HORSE: $ENTITY_HORSELIKE
 
 #zombified_piglin
+$ENTITY_MINECRAFT_ZOMBIFIED_PIGLIN: $ENTITY_ZOMBIELIKE
 $ENTITY_MINECRAFT_ZOMBIFIED_PIGLIN: {
     AngerTime: Int,
     AngryAt: $UUID
@@ -482,8 +483,10 @@ $ENTITY_MINECRAFT_ZOMBIFIED_PIGLIN: {
 
 #piglin
 $ENTITY_MINECRAFT_PIGLIN: {
+    IsBaby: Byte (boolean),
     IsImmuneToZombification: Byte (boolean),
     TimeInOverworld: Int,
+    CannotHunt: Byte (boolean),
     Inventory: [$ITEM]
 }
 
@@ -493,11 +496,14 @@ $ENTITY_MINECRAFT_PIGLIN_BRUTE: $ENTITY_MINECRAFT_PIGLIN
 #hoglin
 $ENTITY_MINECRAFT_HOGLIN: {
     IsImmuneToZombification: Byte (boolean),
-    TimeInOverworld: Int
+    TimeInOverworld: Int,
+    CannotBeHunted: Byte (boolean)
 }
 
 #zoglin
-#empty
+$ENTITY_MINECRAFT_ZOGLIN: {
+    IsBaby: Byte (boolean)
+}
 
 #zombie_villager
 $ENTITY_MINECRAFT_ZOMBIE_VILLAGER: {

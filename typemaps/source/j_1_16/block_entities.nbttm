@@ -74,6 +74,12 @@ $BLOCK_ENTITY_MINECRAFT_CAMPFIRE: {
     CookingTotalTimes: [I;] (fixed)
 }
 
+$BLOCK_ENTITY_MINECRAFT_SOUL_CAMPFIRE: {
+    Items: [$ITEM],
+    CookingTimes: [I;] (fixed),
+    CookingTotalTimes: [I;] (fixed)
+}
+
 $BLOCK_ENTITY_MINECRAFT_CHEST: {
     CustomName: String (text_component),
     Lock: String,

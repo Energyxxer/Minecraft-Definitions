@@ -2,6 +2,7 @@
   "edition": "java",
   "applicable_version": "1.16.*",
   "features": {
+    "pack_format": 6,
     "objectives.max_length": 16,
     "identifiers.regex": "[A-Za-z0-9_.\\-+]+",
     "identifiers.accept_strings": false,
@@ -19,6 +20,7 @@
     "function.export_path": "data/$NAMESPACE$/functions/",
     "function.extension": ".mcfunction",
     "custom_dimensions": true,
+    "custom_biomes": true,
     "data_packs": true,
     "functions": true,
     "advancements": true,
