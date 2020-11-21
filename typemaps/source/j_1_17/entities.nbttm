@@ -8,6 +8,7 @@ $ENTITY: {
     FallDistance: Float,
     Fire: Short,
     Air: Short,
+    TicksFrozen: Int,
     OnGround: Byte (boolean),
     NoGravity: Byte (boolean),
     Dimension: String (type(dimension)),
@@ -35,7 +36,6 @@ $ENTITY_MOB: {
     HurtByTimestamp: Int,
     DeathTime: Short,
     FallFlying: Byte (boolean),
-    TicksFrozen: Int,
     SleepingX: Int,
     SleepingY: Int,
     SleepingZ: Int,
@@ -201,8 +201,7 @@ $ENTITY_MINECRAFT_ENDERMAN: {
 
 #endermite
 $ENTITY_MINECRCAFT_ENDERMITE: {
-    LifeTime: Int,
-    PlayerSpawned: Byte (boolean)
+    LifeTime: Int
 }
 
 $ENTITY_ILLAGER: {

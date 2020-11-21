@@ -1,6 +1,6 @@
 {
   "edition": "java",
-  "applicable_version": "1.16.*",
+  "applicable_version": "1.17.*",
   "features": {
     "data_pack_format": 7,
     "objectives.max_length": 16,
