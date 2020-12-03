@@ -40,6 +40,7 @@
     "command.weather.query": true,
     "command.playsound.channel": false,
     "command.stopsound.channel": false,
+
     "add.entity": true,
     "add.particle": true,
     "textcomponent.text": true,

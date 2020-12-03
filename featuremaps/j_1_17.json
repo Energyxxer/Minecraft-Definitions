@@ -61,7 +61,6 @@
     "textcomponent.hex_color": true,
     "textcomponent.hover_event.content": true,
 
-
     "command.teammsg": true,
     "command.datapack": true,
     "command.reload": true,
