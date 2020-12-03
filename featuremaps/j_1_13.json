@@ -40,6 +40,7 @@
     "command.forceload": false,
     "command.tickingarea": false,
     "command.effect.explicit": true,
+    "command.xp.explicit": true,
     "command.weather_query": false,
     "add.entity": false,
     "add.particle": false,

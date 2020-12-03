@@ -1,0 +1,84 @@
+{
+  "name": "Minecraft Bedrock Edition 1.16.200",
+  "version": 1,
+  "categories": {
+    "block": {
+      "use_namespace": true,
+      "tag_directory": "blocks",
+      "import_from": "definitions/blocks"
+    },
+    "item": {
+      "use_namespace": true,
+      "tag_directory": "items",
+      "import_from": "definitions/items"
+    },
+    "effect": {
+      "use_namespace": false,
+      "import_from": "definitions/effects"
+    },
+    "entity": {
+      "use_namespace": true,
+      "import_from": "definitions/entities"
+    },
+    "block_entity": {
+      "use_namespace": false,
+      "import_from": "definitions/block_entities"
+    },
+    "particle": {
+      "use_namespace": true,
+      "import_from": "definitions/particles"
+    },
+    "enchantment": {
+      "use_namespace": false,
+      "import_from": "definitions/enchantments"
+    },
+    "dimension": {
+      "use_namespace": false,
+      "import_from": "definitions/dimensions"
+    },
+    "biome": {
+      "use_namespace": true,
+      "import_from": "definitions/biomes"
+    },
+    "villager_profession": {
+      "use_namespace": true,
+      "import_from": "definitions/villager_professions"
+    },
+    "villager_type": {
+      "use_namespace": true,
+      "import_from": "definitions/villager_types"
+    },
+    "motive": {
+      "use_namespace": true,
+      "import_from": "definitions/motives"
+    },
+    "function_reference": {
+      "use_namespace": true,
+      "tag_directory": "functions"
+    },
+    "difficulty": {
+      "use_namespace": false,
+      "import_from": "definitions/difficulties"
+    },
+    "gamemode": {
+      "use_namespace": false,
+      "import_from": "definitions/gamemodes"
+    },
+    "gamerule": {
+      "use_namespace": false,
+      "import_from": "definitions/gamerules"
+    },
+    "structure": {
+      "use_namespace": false,
+      "import_from": "definitions/structures"
+    },
+    "slot": {
+      "use_namespace": false,
+      "import_from": "definitions/slots"
+    },
+    "score_display": {
+      "use_namespace": false,
+      "import_from": "definitions/score_displays"
+    }
+  }
+}
