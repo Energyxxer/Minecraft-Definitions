@@ -3109,5 +3109,14 @@
   },
   "minecraft:powder_snow_bucket": {
     "protocol_id": 1036
+  },
+  "minecraft:pointed_dripstone": {
+    "protocol_id": 1037
+  },
+  "minecraft:dripstone_block": {
+    "protocol_id": 1038
+  },
+  "minecraft:sculk_sensor": {
+    "protocol_id": 1039
   }
 }

@@ -97,5 +97,8 @@
   },
   "minecraft:beehive": {
     "protocol_id": 32
+  },
+  "minecraft:sculk_sensor": {
+    "protocol_id": 33
   }
 }

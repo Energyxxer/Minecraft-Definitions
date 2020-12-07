@@ -93,6 +93,11 @@
     "score_display": {
       "use_namespace": false,
       "import_from": "definitions/score_displays"
+    },
+    "game_event": {
+      "use_namespace": true,
+      "tag_directory": "game_events",
+      "import_from": "definitions/game_events"
     }
   }
 }
