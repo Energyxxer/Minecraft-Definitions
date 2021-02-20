@@ -114,7 +114,7 @@ $ITEM_TAG: {
 $EXPLOSION: {
     Flicker: Byte (boolean),
     Trail: Byte (boolean),
-    Type: Byte (boolean),
+    Type: Byte,
     Colors: [I;],
     FadeColors: [I;]
 }

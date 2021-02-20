@@ -194,6 +194,9 @@
   "minecraft:falling_nectar": {
     "argument": "none"
   },
+  "minecraft:falling_spore_blossom": {
+    "argument": "none"
+  },
   "minecraft:ash": {
     "argument": "none"
   },
@@ -201,6 +204,9 @@
     "argument": "none"
   },
   "minecraft:warped_spore": {
+    "argument": "none"
+  },
+  "minecraft:spore_blossom_air": {
     "argument": "none"
   },
   "minecraft:soul_fire_flame": {
@@ -237,6 +243,12 @@
     "argument": "none"
   },
   "minecraft:falling_dripstone_water": {
+    "argument": "none"
+  },
+  "minecraft:glow_squid_ink": {
+    "argument": "none"
+  },
+  "minecraft:glow": {
     "argument": "none"
   }
 }

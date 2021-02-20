@@ -103,6 +103,10 @@
     "argument": "boolean",
     "default": true
   },
+  "playersSleepingPercentage": {
+    "argument": "int",
+    "default": 100
+  },
   "randomTickSpeed": {
     "argument": "int",
     "default": 3

@@ -76,6 +76,12 @@ $ENTITY_MOB: {
     }
 }
 
+#axolotl
+$ENTITY_MINECRAFT_AXOLOTL: {
+    FromBucket: Byte (boolean),
+    Variant: Int
+}
+
 #bat
 $ENTITY_MINECRAFT_BAT: {
     BatFlags: Byte (boolean)
@@ -239,6 +245,14 @@ $ENTITY_MINECRAFT_GHAST: {
 
 #giant
 $ENTITY_MINECRAFT_GIANT: $ENTITY_ZOMBIELIKE
+
+#glow_item_frame
+$ENTITY_MINECRAFT_GLOW_ITEM_FRAME: $ENTITY_MINECRAFT_ITEM_FRAME
+
+#glow_squid
+$ENTITY_MINECRAFT_GLOW_SQUID: {
+    DarkTicksRemaining: Int
+}
 
 #guardian
 #empty
@@ -519,7 +533,8 @@ $ENTITY_MINECRAFT_ZOMBIE_VILLAGER: $ENTITY_ZOMBIELIKE
 
 $ENTITY_PROJECTILE: {
     Owner: $UUID,
-    LeftOwner: Byte (boolean)
+    LeftOwner: Byte (boolean),
+    HasBeenShot: Byte (boolean)
 }
 
 $ENTITY_MINECRAFT_ARROW: {

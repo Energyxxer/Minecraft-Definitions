@@ -1,4 +1,11 @@
 {
+  "minecraft:axolotl": {
+    "spawnable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false,
+    "breedable": true
+  },
   "minecraft:lightning_bolt": {
     "spawnable": true,
     "targetable": true,
@@ -252,6 +259,18 @@
     "living": true,
     "hostile": true,
     "undead": true
+  },
+  "minecraft:glow_item_frame": {
+    "spawnable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:glow_squid": {
+    "spawnable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
   },
   "minecraft:guardian": {
     "spawnable": true,
