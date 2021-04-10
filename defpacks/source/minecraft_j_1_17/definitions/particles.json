@@ -250,5 +250,20 @@
   },
   "minecraft:glow": {
     "argument": "none"
+  },
+  "minecraft:electric_spark": {
+    "argument": "none"
+  },
+  "minecraft:scrape": {
+    "argument": "none"
+  },
+  "minecraft:wax_on": {
+    "argument": "none"
+  },
+  "minecraft:wax_off": {
+    "argument": "none"
+  },
+  "minecraft:light": {
+    "argument": "none"
   }
 }

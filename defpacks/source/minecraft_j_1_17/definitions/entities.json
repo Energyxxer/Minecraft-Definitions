@@ -272,6 +272,12 @@
     "living": true,
     "hostile": false
   },
+  "minecraft:goat": {
+    "spawnable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
   "minecraft:guardian": {
     "spawnable": true,
     "targetable": true,

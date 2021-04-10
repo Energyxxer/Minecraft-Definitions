@@ -254,6 +254,11 @@ $ENTITY_MINECRAFT_GLOW_SQUID: {
     DarkTicksRemaining: Int
 }
 
+#goat
+$ENTITY_MINECRAFT_GOAT: {
+    IsScreamingGoat: Byte (boolean)
+}
+
 #guardian
 #empty
 

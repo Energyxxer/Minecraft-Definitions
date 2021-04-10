@@ -186,6 +186,7 @@ $BLOCK_ENTITY_MINECRAFT_SHULKER_BOX: {
 }
 
 $BLOCK_ENTITY_MINECRAFT_SIGN: {
+    GlowingText: Byte (boolean),
     Color: String (one_of("white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "gray", "cyan", "purple", "blue", "brown", "green", "red", "black")),
     Text1: String (text_component),
     Text2: String (text_component),
