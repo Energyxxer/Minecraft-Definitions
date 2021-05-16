@@ -358,6 +358,12 @@
     "hostile": false,
     "projectile": true
   },
+  "minecraft:marker": {
+    "spawnable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
   "minecraft:magma_cube": {
     "spawnable": true,
     "targetable": true,

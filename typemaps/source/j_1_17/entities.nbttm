@@ -312,6 +312,12 @@ $ENTITY_SLIMELIKE: {
 #magma_cube
 $ENTITY_MINECRAFT_MAGMA_CUBE: $ENTITY_SLIMELIKE
 
+#marker
+$MARKER_DATA: {}
+$ENTITY_MINECRAFT_MARKER: {
+    data: $MARKER_DATA
+}
+
 #mooshroom
 $ENTITY_MINECRAFT_MOOSHROOM: {
     Type: String (one_of("red", "brown")),
