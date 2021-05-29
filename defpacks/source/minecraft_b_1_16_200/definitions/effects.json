@@ -122,5 +122,9 @@
   "bad_omen": {
     "id": 31,
     "type": "negative"
+  },
+  "village_hero": {
+    "id": 32,
+    "type": "positive"
   }
 }

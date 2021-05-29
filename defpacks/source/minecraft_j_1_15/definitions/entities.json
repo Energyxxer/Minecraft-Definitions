@@ -303,13 +303,15 @@
     "spawnable": true,
     "targetable": true,
     "living": false,
-    "hostile": false
+    "hostile": false,
+    "snaps_to_grid": true
   },
   "minecraft:leash_knot": {
     "spawnable": true,
     "targetable": true,
     "living": false,
-    "hostile": false
+    "hostile": false,
+    "snaps_to_grid": true
   },
   "minecraft:llama": {
     "spawnable": true,
@@ -365,7 +367,8 @@
     "spawnable": true,
     "targetable": true,
     "living": false,
-    "hostile": false
+    "hostile": false,
+    "snaps_to_grid": true
   },
   "minecraft:panda": {
     "spawnable": true,
@@ -444,7 +447,8 @@
     "spawnable": true,
     "targetable": true,
     "living": true,
-    "hostile": true
+    "hostile": true,
+    "snaps_to_grid": true
   },
   "minecraft:shulker_bullet": {
     "spawnable": true,
