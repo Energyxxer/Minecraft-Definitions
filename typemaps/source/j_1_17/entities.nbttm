@@ -241,7 +241,7 @@ $ENTITY_MINECRAFT_FOX: {
 
 #ghast
 $ENTITY_MINECRAFT_GHAST: {
-    ExplosionPower: Int
+    ExplosionPower: Byte
 }
 
 #giant
@@ -590,7 +590,7 @@ $ENTITY_MINECRAFT_FIREBALL: {
     life: Int,
     power: [Double] (fixed),
     Item: $ITEM,
-    ExplosionPower: Int
+    ExplosionPower: Byte
 }
 
 $ENTITY_MINECRAFT_POTION: {
