@@ -2195,7 +2195,7 @@
       }
     ]
   },
-  "minecraft:azalea_leaves_flowers": {
+  "minecraft:flowering_azalea_leaves": {
     "properties": {
       "distance": [
         "1",
@@ -47021,8 +47021,7 @@
           "waterlogged": "false",
           "west": "true"
         },
-        "id": 4895,
-        "default": true
+        "id": 4895
       },
       {
         "properties": {
@@ -48522,7 +48521,8 @@
           "waterlogged": "false",
           "west": "false"
         },
-        "id": 5020
+        "id": 5020,
+        "default": true
       }
     ]
   },
@@ -204459,6 +204459,22 @@
     "states": [
       {
         "id": 20339,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:potted_azalea_bush": {
+    "states": [
+      {
+        "id": 20340,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:potted_flowering_azalea_bush": {
+    "states": [
+      {
+        "id": 20341,
         "default": true
       }
     ]

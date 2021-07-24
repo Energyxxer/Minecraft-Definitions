@@ -28,6 +28,7 @@
     "nbt.access": false,
     "scoreboard.criteria": false,
     "execute_modifiers": false,
+    "command.replaceitem.keep": true,
     "command.teammsg": false,
     "command.data_modify": false,
     "command.scoreboard_random": true,

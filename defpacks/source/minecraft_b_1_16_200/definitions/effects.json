@@ -126,5 +126,8 @@
   "village_hero": {
     "id": 32,
     "type": "positive"
+  },
+  "fatal_poison": {
+    "type": "negative"
   }
 }
