@@ -3,6 +3,7 @@
   "applicable_version": "1.16.200(.*)?",
   "features": {
     "objectives.max_length": 16,
+    "identifiers.escape_unicode": false,
     "identifiers.regex": "(?!\\d+\\.?\\d*(?:\\s|$))([a-zA-Z0-9._\\-§()]|(?::(?!\\d+(?:\\s|$))))+",
     "identifiers.accept_strings": true,
     "objectives.regex": "(?!\\d+\\.?\\d*(?:\\s|$))([a-zA-Z0-9._\\-§()]|(?::(?!\\d+(?:\\s|$))))+",
