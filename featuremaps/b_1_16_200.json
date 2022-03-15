@@ -48,6 +48,8 @@
     "command.stopsound.channel": false,
     "command.tp.check_for_blocks": true,
     "selector.score.negated": true,
+    "selector.hasitem": true,
+    "selector.initiator": true,
 
     "add.entity": true,
     "add.particle": true,
