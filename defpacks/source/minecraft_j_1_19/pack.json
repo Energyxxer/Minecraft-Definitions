@@ -1,0 +1,128 @@
+{
+  "name": "Minecraft Java Edition 1.19",
+  "version": 2,
+  "categories_in_directories": [
+    "chat_type",
+    "dimension_type",
+    "worldgen/biome",
+    "worldgen/configured_carver",
+    "worldgen/configured_feature",
+    "worldgen/density_function",
+    "worldgen/flat_level_generator_preset",
+    "worldgen/noise",
+    "worldgen/noise_settings",
+    "worldgen/placed_feature",
+    "worldgen/processor_list",
+    "worldgen/structure",
+    "worldgen/structure_set",
+    "worldgen/template_pool",
+    "worldgen/world_preset"
+  ],
+  "categories": {
+    "block": {
+      "use_namespace": true,
+      "tag_directory": "blocks",
+      "import_from": "reports/blocks"
+    },
+    "fluid": {
+      "use_namespace": true,
+      "tag_directory": "fluids"
+    },
+    "item": {
+      "use_namespace": true,
+      "tag_directory": "items"
+    },
+    "mob_effect": {
+      "use_namespace": true
+    },
+    "effect": {
+      "alias_for": "mob_effect"
+    },
+    "entity_type": {
+      "use_namespace": true,
+      "tag_directory": "entity_types",
+      "import_from": "definitions/entities"
+    },
+    "entity": {
+      "alias_for": "entity_type"
+    },
+    "block_entity": {
+      "alias_for": "block_entity_type"
+    },
+    "particle_type": {
+      "use_namespace": true,
+      "import_from": "definitions/particles"
+    },
+    "particle": {
+      "alias_for": "particle_type"
+    },
+    "enchantment": {
+      "use_namespace": true,
+      "import_from": "definitions/enchantments"
+    },
+    "dimension_type": {
+      "use_namespace": true,
+      "import_from": "definitions/dimensions"
+    },
+    "dimension": {
+      "alias_for": "dimension_type"
+    },
+    "worldgen/biome": {
+      "use_namespace": true
+    },
+    "biome": {
+      "alias_for": "worldgen/biome"
+    },
+    "painting_variant": {
+      "use_namespace": true
+    },
+    "motive": {
+      "alias_for": "painting_variant"
+    },
+    "function_reference": {
+      "use_namespace": true,
+      "tag_directory": "functions"
+    },
+    "difficulty": {
+      "use_namespace": false,
+      "import_from": "definitions/difficulties"
+    },
+    "gamemode": {
+      "use_namespace": false,
+      "import_from": "definitions/gamemodes"
+    },
+    "gamerule": {
+      "use_namespace": false,
+      "import_from": "definitions/gamerules"
+    },
+    "worldgen/structure": {
+      "use_namespace": true
+    },
+    "structure": {
+      "alias_for": "worldgen/structure"
+    },
+    "legacy_structure": {
+      "use_namespace": false,
+      "import_from": "definitions/legacy_structures"
+    },
+    "template": {
+      "use_namespace": true,
+      "tag_directory": "template"
+    },
+    "jigsaw_target": {
+      "use_namespace": true
+    },
+    "slot": {
+      "use_namespace": false,
+      "import_from": "definitions/slots"
+    },
+    "score_display": {
+      "use_namespace": false,
+      "import_from": "definitions/score_displays"
+    },
+    "game_event": {
+      "use_namespace": true,
+      "tag_directory": "game_events"
+    }
+  }
+}

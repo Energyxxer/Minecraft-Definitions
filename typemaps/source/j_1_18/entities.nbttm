@@ -257,7 +257,9 @@ $ENTITY_MINECRAFT_GLOW_SQUID: {
 
 #goat
 $ENTITY_MINECRAFT_GOAT: {
-    IsScreamingGoat: Byte (boolean)
+    IsScreamingGoat: Byte (boolean),
+    HasLeftHorn: Byte (boolean),
+    HasRightHorn: Byte (boolean)
 }
 
 #guardian

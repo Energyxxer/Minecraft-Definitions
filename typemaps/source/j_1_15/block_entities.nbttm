@@ -78,7 +78,7 @@ $BLOCK_ENTITY_MINECRAFT_BREWING_STAND: {
     CustomName: String (text_component),
     Lock: String,
     Items: [$ITEM],
-    BrewTime: Int,
+    BrewTime: Short,
     Fuel: Byte
 }
 

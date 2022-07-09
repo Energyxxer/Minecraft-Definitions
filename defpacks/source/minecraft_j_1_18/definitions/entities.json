@@ -277,7 +277,8 @@
     "spawnable": true,
     "targetable": true,
     "living": true,
-    "hostile": false
+    "hostile": false,
+    "breedable": true
   },
   "minecraft:guardian": {
     "spawnable": true,

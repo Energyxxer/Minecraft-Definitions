@@ -1,0 +1,29 @@
+{
+  "minecraft:block": {
+    "argument": "block"
+  },
+  "minecraft:dust": {
+    "argument": "color-double"
+  },
+  "minecraft:dust_color_transition": {
+    "argument": "color-color-double"
+  },
+  "minecraft:falling_dust": {
+    "argument": "block"
+  },
+  "minecraft:item": {
+    "argument": "item"
+  },
+  "minecraft:vibration": {
+    "argument": "double-double-double-int"
+  },
+  "minecraft:block_marker": {
+    "argument": "block"
+  },
+  "minecraft:sculk_charge": {
+    "argument": "double"
+  },
+  "minecraft:shriek": {
+    "argument": "int"
+  }
+}

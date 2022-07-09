@@ -72,6 +72,8 @@ $ITEM_TAG: {
         MapColor: Int
     },
     HideFlags: Int,
+    filtered_pages: {},
+    filtered_title: {},
     resolved: Byte (boolean),
     generation: Int,
     author: String,
@@ -88,7 +90,8 @@ $ITEM_TAG: {
     EntityTag: $ENTITY (protocol),
     BucketVariantTag: Int,
     map: Int,
-    map_scale_direction: Int,
+    map_scale_direction: Int (volatile),
+    map_to_lock: Byte (boolean , volatile),
     Decorations: [
         {
             id: String,
