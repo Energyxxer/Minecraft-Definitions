@@ -2,7 +2,7 @@
   "edition": "bedrock",
   "applicable_version": "1.19.70",
   "features": {
-    "objectives.max_length": 16,
+    "objectives.max_length": 256,
     "identifiers.escape_unicode": false,
     "identifiers.regex": "(?!\\d+\\.?\\d*(?:\\s|$))([a-zA-Z0-9._\\-§()]|(?::(?!\\d+(?:\\s|$))))+",
     "identifiers.accept_strings": true,
@@ -23,7 +23,8 @@
     "functions": true,
     "advancements": false,
     "bossbars": false,
-    "block.data_values": true,
+    "block.data_values": false,
+    "block.properties": true,
     "block.blockstates": false,
     "item.data_values": true,
     "nbt.access": false,

@@ -24,6 +24,7 @@
     "advancements": false,
     "bossbars": false,
     "block.data_values": true,
+    "block.properties": true,
     "block.blockstates": false,
     "item.data_values": true,
     "nbt.access": false,
