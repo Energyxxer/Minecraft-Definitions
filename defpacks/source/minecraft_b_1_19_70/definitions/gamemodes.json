@@ -10,5 +10,8 @@
   },
   "spectator": {
     "id": 3
+  },
+  "default": {
+    "id": -1
   }
 }
