@@ -50,6 +50,7 @@
     "command.stopsound.channel": false,
     "command.tp.check_for_blocks": true,
     "command.summon.rotation": true,
+    "command.time.units": false,
     "selector.score.negated": true,
     "selector.hasitem": true,
     "selector.initiator": true,
