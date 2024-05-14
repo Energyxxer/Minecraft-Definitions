@@ -79,6 +79,10 @@
     "score_display": {
       "use_namespace": false,
       "import_from": "definitions/score_displays"
+    },
+    "camera_preset": {
+      "use_namespace": true,
+      "import_from": "definitions/camera_presets"
     }
   }
 }
