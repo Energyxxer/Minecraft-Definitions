@@ -1,0 +1,814 @@
+{
+  "minecraft:lightning_bolt": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:player": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:area_effect_cloud": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:armor_stand": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:arrow": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:bat": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:bee": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:blaze": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:boat": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:cat": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:cave_spider": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:chalkboard": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:chicken": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:chest_minecart": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:cod": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:command_block_minecart": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:cow": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:creeper": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:dolphin": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:donkey": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:dragon_fireball": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:drowned": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  },
+  "minecraft:egg": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:elder_guardian": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:elder_guardian_ghost": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:end_crystal": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:ender_dragon": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:ender_pearl": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:enderman": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:endermite": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:evocation_fang": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:evocation_illager": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:eye_of_ender_signal": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:falling_block": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:moving_block": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:fireball": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:fireworks_rocket": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:fox": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:fishing_hook": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:furnace_minecart": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:ghast": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:giant": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  },
+  "minecraft:guardian": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:hoglin": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:hopper_minecart": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:horse": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:husk": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  },
+  "minecraft:ravager": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:illusioner": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:item": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:leash_knot": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:llama": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:llama_spit": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:magma_cube": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:minecart": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:mooshroom": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:mule": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:npc": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:ocelot": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:painting": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:panda": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:parrot": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:phantom": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  },
+  "minecraft:pig": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:piglin": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:piglin_brute": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:strider": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:shield": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:zoglin": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "undead": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:pillager": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:polar_bear": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:splash_potion": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:lingering_potion": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:pufferfish": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:rabbit": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:salmon": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:sheep": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:shulker": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:shulker_bullet": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:silverfish": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:skeleton": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  },
+  "minecraft:skeleton_horse": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false,
+    "undead": true
+  },
+  "minecraft:slime": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:small_fireball": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:snowball": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:snow_golem": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:spawner_minecart": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:spectral_arrow": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:spider": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:squid": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:stray": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  },
+  "minecraft:tnt": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:tnt_minecart": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:trader_llama": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:thrown_trident": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:tropicalfish": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:turtle": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:vex": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:villager": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:iron_golem": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:vindicator": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:wandering_trader": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:witch": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true
+  },
+  "minecraft:wither": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false,
+    "undead": true
+  },
+  "minecraft:wither_skeleton": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  },
+  "minecraft:wither_skull": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:wither_skull_dangerous": {
+    "spawnable": false,
+    "summonable": false,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:wolf": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false
+  },
+  "minecraft:xp_bottle": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:xp_orb": {
+    "spawnable": false,
+    "summonable": true,
+    "targetable": true,
+    "living": false,
+    "hostile": false
+  },
+  "minecraft:zombie": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  },
+  "minecraft:zombie_horse": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": false,
+    "undead": true
+  },
+  "minecraft:zombie_pigman": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  },
+  "minecraft:zombie_villager": {
+    "spawnable": true,
+    "summonable": true,
+    "targetable": true,
+    "living": true,
+    "hostile": true,
+    "undead": true
+  }
+}
