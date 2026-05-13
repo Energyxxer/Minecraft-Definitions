@@ -1057,7 +1057,13 @@
       {"coral_color": "purple", "dead_bit": false},
       {"coral_color": "red", "dead_bit": false},
       {"coral_color": "yellow", "dead_bit": false},
-      {"coral_color": "blue", "dead_bit": false}
+      {"coral_color": "blue", "dead_bit": false},
+      {"coral_color": "blue", "dead_bit": true},
+      {"coral_color": "pink", "dead_bit": true},
+      {"coral_color": "purple", "dead_bit": true},
+      {"coral_color": "red", "dead_bit": true},
+      {"coral_color": "yellow", "dead_bit": true},
+      {"coral_color": "blue", "dead_bit": true}
     ]
   },
   "minecraft:coral_block": {
@@ -1067,7 +1073,13 @@
       {"coral_color": "purple", "dead_bit": false},
       {"coral_color": "red", "dead_bit": false},
       {"coral_color": "yellow", "dead_bit": false},
-      {"coral_color": "blue", "dead_bit": false}
+      {"coral_color": "blue", "dead_bit": false},
+      {"coral_color": "blue", "dead_bit": true},
+      {"coral_color": "pink", "dead_bit": true},
+      {"coral_color": "purple", "dead_bit": true},
+      {"coral_color": "red", "dead_bit": true},
+      {"coral_color": "yellow", "dead_bit": true},
+      {"coral_color": "blue", "dead_bit": true}
     ]
   },
   "minecraft:coral_fan": {
@@ -1087,7 +1099,13 @@
       {"coral_color": "purple", "coral_fan_direction": 0},
       {"coral_color": "red", "coral_fan_direction": 0},
       {"coral_color": "yellow", "coral_fan_direction": 0},
-      {"coral_color": "blue", "coral_fan_direction": 0}
+      {"coral_color": "blue", "coral_fan_direction": 0},
+      {"coral_color": "blue", "coral_fan_direction": 1},
+      {"coral_color": "pink", "coral_fan_direction": 1},
+      {"coral_color": "purple", "coral_fan_direction": 1},
+      {"coral_color": "red", "coral_fan_direction": 1},
+      {"coral_color": "yellow", "coral_fan_direction": 1},
+      {"coral_color": "blue", "coral_fan_direction": 1}
     ]
   },
   "minecraft:coral_fan_hang": {
