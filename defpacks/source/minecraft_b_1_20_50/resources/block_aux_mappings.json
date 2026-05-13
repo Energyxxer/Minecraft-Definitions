@@ -3789,7 +3789,14 @@
       {"age_bit": false, "sapling_type": "jungle"},
       {"age_bit": false, "sapling_type": "acacia"},
       {"age_bit": false, "sapling_type": "dark_oak"},
-      {"age_bit": false, "sapling_type": "oak"}
+      {"age_bit": false, "sapling_type": "oak"},
+      {"age_bit": true, "sapling_type": "oak"},
+      {"age_bit": true, "sapling_type": "spruce"},
+      {"age_bit": true, "sapling_type": "birch"},
+      {"age_bit": true, "sapling_type": "jungle"},
+      {"age_bit": true, "sapling_type": "acacia"},
+      {"age_bit": true, "sapling_type": "dark_oak"},
+      {"age_bit": true, "sapling_type": "oak"}
     ]
   },
   "minecraft:scaffolding": {
