@@ -1717,7 +1717,17 @@
       {"stone_slab_type_4": "stone", "top_slot_bit": false},
       {"stone_slab_type_4": "cut_sandstone", "top_slot_bit": false},
       {"stone_slab_type_4": "cut_red_sandstone", "top_slot_bit": false},
-      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": false}
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": false},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": false},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": false},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": true},
+      {"stone_slab_type_4": "smooth_quartz", "top_slot_bit": true},
+      {"stone_slab_type_4": "stone", "top_slot_bit": true},
+      {"stone_slab_type_4": "cut_sandstone", "top_slot_bit": true},
+      {"stone_slab_type_4": "cut_red_sandstone", "top_slot_bit": true},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": true},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": true},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": true}
     ]
   },
   "minecraft:double_wooden_slab": {
@@ -1728,7 +1738,16 @@
       {"top_slot_bit": false, "wood_type": "jungle"},
       {"top_slot_bit": false, "wood_type": "acacia"},
       {"top_slot_bit": false, "wood_type": "dark_oak"},
-      {"top_slot_bit": false, "wood_type": "oak"}
+      {"top_slot_bit": false, "wood_type": "oak"},
+      {"top_slot_bit": false, "wood_type": "oak"},
+      {"top_slot_bit": true, "wood_type": "oak"},
+      {"top_slot_bit": true, "wood_type": "spruce"},
+      {"top_slot_bit": true, "wood_type": "birch"},
+      {"top_slot_bit": true, "wood_type": "jungle"},
+      {"top_slot_bit": true, "wood_type": "acacia"},
+      {"top_slot_bit": true, "wood_type": "dark_oak"},
+      {"top_slot_bit": true, "wood_type": "oak"},
+      {"top_slot_bit": true, "wood_type": "oak"}
     ]
   },
   "minecraft:dropper": {
@@ -4346,7 +4365,17 @@
       {"stone_slab_type_4": "stone", "top_slot_bit": false},
       {"stone_slab_type_4": "cut_sandstone", "top_slot_bit": false},
       {"stone_slab_type_4": "cut_red_sandstone", "top_slot_bit": false},
-      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": false}
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": false},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": false},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": false},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": true},
+      {"stone_slab_type_4": "smooth_quartz", "top_slot_bit": true},
+      {"stone_slab_type_4": "stone", "top_slot_bit": true},
+      {"stone_slab_type_4": "cut_sandstone", "top_slot_bit": true},
+      {"stone_slab_type_4": "cut_red_sandstone", "top_slot_bit": true},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": true},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": true},
+      {"stone_slab_type_4": "mossy_stone_brick", "top_slot_bit": true}
     ]
   },
   "minecraft:stone_brick_stairs": {
@@ -5186,7 +5215,16 @@
       {"top_slot_bit": false, "wood_type": "jungle"},
       {"top_slot_bit": false, "wood_type": "acacia"},
       {"top_slot_bit": false, "wood_type": "dark_oak"},
-      {"top_slot_bit": false, "wood_type": "oak"}
+      {"top_slot_bit": false, "wood_type": "oak"},
+      {"top_slot_bit": false, "wood_type": "oak"},
+      {"top_slot_bit": true, "wood_type": "oak"},
+      {"top_slot_bit": true, "wood_type": "spruce"},
+      {"top_slot_bit": true, "wood_type": "birch"},
+      {"top_slot_bit": true, "wood_type": "jungle"},
+      {"top_slot_bit": true, "wood_type": "acacia"},
+      {"top_slot_bit": true, "wood_type": "dark_oak"},
+      {"top_slot_bit": true, "wood_type": "oak"},
+      {"top_slot_bit": true, "wood_type": "oak"}
     ]
   },
   "minecraft:wool": {
